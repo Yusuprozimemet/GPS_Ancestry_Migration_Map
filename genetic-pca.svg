@@ -1,0 +1,97 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background and axes -->
+  <rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#e0e0e0" stroke-width="1">
+    <!-- Vertical grid -->
+    <line x1="100" y1="50" x2="100" y2="550"/>
+    <line x1="200" y1="50" x2="200" y2="550"/>
+    <line x1="300" y1="50" x2="300" y2="550"/>
+    <line x1="400" y1="50" x2="400" y2="550"/>
+    <line x1="500" y1="50" x2="500" y2="550"/>
+    <line x1="600" y1="50" x2="600" y2="550"/>
+    <line x1="700" y1="50" x2="700" y2="550"/>
+    
+    <!-- Horizontal grid -->
+    <line x1="100" y1="150" x2="700" y2="150"/>
+    <line x1="100" y1="250" x2="700" y2="250"/>
+    <line x1="100" y1="350" x2="700" y2="350"/>
+    <line x1="100" y1="450" x2="700" y2="450"/>
+  </g>
+
+  <!-- Axes -->
+  <g stroke="#000000" stroke-width="2">
+    <line x1="100" y1="550" x2="700" y2="550"/> <!-- X-axis -->
+    <line x1="100" y1="50" x2="100" y2="550"/> <!-- Y-axis -->
+  </g>
+
+  <!-- Axis labels -->
+  <g font-family="Arial" font-size="12" text-anchor="middle">
+    <!-- X-axis label -->
+    <text x="400" y="590" font-weight="bold">East-West Component (PC1)</text>
+    <!-- Y-axis label -->
+    <text x="50" y="300" font-weight="bold" transform="rotate(-90,50,300)">North-South Component (PC2)</text>
+  </g>
+
+  <!-- Population clusters with 95% confidence ellipses -->
+  <!-- Bronze Age cluster -->
+  <g fill="#1f77b4" fill-opacity="0.2" stroke="#1f77b4">
+    <ellipse cx="400" cy="200" rx="80" ry="60"/>
+    <circle cx="400" cy="200" r="5" fill-opacity="1"/>
+    <text x="410" y="190" fill="#000" font-size="12">Bronze Age</text>
+    <text x="410" y="205" fill="#000" font-size="10">Central/Eastern Steppe (49.4%)</text>
+  </g>
+
+  <!-- Iron Age cluster -->
+  <g fill="#ff7f0e" fill-opacity="0.2" stroke="#ff7f0e">
+    <ellipse cx="500" cy="300" rx="70" ry="50"/>
+    <circle cx="500" cy="300" r="5" fill-opacity="1"/>
+    <text x="510" y="290" fill="#000" font-size="12">Iron Age</text>
+    <text x="510" y="305" fill="#000" font-size="10">Xiongnu/Gandhara (63.6%)</text>
+  </g>
+
+  <!-- Late Antiquity cluster -->
+  <g fill="#2ca02c" fill-opacity="0.2" stroke="#2ca02c">
+    <ellipse cx="450" cy="400" rx="60" ry="45"/>
+    <circle cx="450" cy="400" r="5" fill-opacity="1"/>
+    <text x="460" y="390" fill="#000" font-size="12">Late Antiquity</text>
+    <text x="460" y="405" fill="#000" font-size="10">Hunnic/Khotanese (70.2%)</text>
+  </g>
+
+  <!-- Medieval cluster -->
+  <g fill="#d62728" fill-opacity="0.2" stroke="#d62728">
+    <ellipse cx="350" cy="350" rx="50" ry="40"/>
+    <circle cx="350" cy="350" r="5" fill-opacity="1"/>
+    <text x="360" y="340" fill="#000" font-size="12">Medieval</text>
+    <text x="360" y="355" fill="#000" font-size="10">Turkic/Mongolic (71.2%)</text>
+  </g>
+
+  <!-- Modern Uyghur position -->
+  <g>
+    <circle cx="400" cy="350" r="8" fill="red"/>
+    <text x="410" y="345" fill="red" font-size="14" font-weight="bold">Modern Uyghur</text>
+  </g>
+
+  <!-- Reference populations -->
+  <g font-size="10">
+    <circle cx="200" cy="200" r="3" fill="#666"/>
+    <text x="210" y="205">West Eurasian</text>
+    
+    <circle cx="600" cy="200" r="3" fill="#666"/>
+    <text x="610" y="205">East Asian</text>
+    
+    <circle cx="400" cy="150" r="3" fill="#666"/>
+    <text x="410" y="155">North Siberian</text>
+    
+    <circle cx="400" cy="450" r="3" fill="#666"/>
+    <text x="410" y="455">South Asian</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(100,50)">
+    <text font-size="14" font-weight="bold">Your Genetic Markers:</text>
+    <text x="0" y="20" font-size="12">Y-DNA: J F3133 (West Asian)</text>
+    <text x="0" y="35" font-size="12">mtDNA: C5b1 (East/Central Asian)</text>
+  </g>
+</svg>

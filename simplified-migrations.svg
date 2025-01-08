@@ -1,0 +1,107 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clean white background -->
+  <rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+
+  <!-- Time period bands to show progression -->
+  <g fill-opacity="0.1">
+    <rect x="100" y="100" width="600" height="100" fill="#1f77b4"/>
+    <text x="120" y="130" font-size="14" fill="#1f77b4">Bronze Age (2100-1800 BC)</text>
+    
+    <rect x="100" y="200" width="600" height="100" fill="#ff7f0e"/>
+    <text x="120" y="230" font-size="14" fill="#ff7f0e">Iron Age (150-1 BC)</text>
+    
+    <rect x="100" y="300" width="600" height="100" fill="#2ca02c"/>
+    <text x="120" y="330" font-size="14" fill="#2ca02c">Late Antiquity (300-450 AD)</text>
+    
+    <rect x="100" y="400" width="600" height="100" fill="#d62728"/>
+    <text x="120" y="430" font-size="14" fill="#d62728">Medieval (650-1200 AD)</text>
+  </g>
+
+  <!-- Migration paths with animations -->
+  <style>
+    .migration-path {
+      stroke-dasharray: 8,4;
+      animation: dash 30s linear infinite;
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: 200;
+      }
+    }
+  </style>
+
+  <!-- Bronze Age component paths -->
+  <g class="bronze-age">
+    <path class="migration-path" d="M200,150 C300,140 400,150 500,140" 
+          stroke="#1f77b4" stroke-width="3" fill="none"/>
+    <circle cx="200" cy="150" r="5" fill="#1f77b4"/>
+    <text x="520" y="145" font-size="12">Central Steppe (24.8%)</text>
+    
+    <path class="migration-path" d="M300,170 C400,160 500,170 600,160" 
+          stroke="#1f77b4" stroke-width="3" fill="none"/>
+    <circle cx="300" cy="170" r="5" fill="#1f77b4"/>
+    <text x="620" y="165" font-size="12">Eastern Steppe (24.6%)</text>
+  </g>
+
+  <!-- Iron Age component paths -->
+  <g class="iron-age">
+    <path class="migration-path" d="M200,250 C350,240 500,250 650,240" 
+          stroke="#ff7f0e" stroke-width="3" fill="none"/>
+    <circle cx="200" cy="250" r="5" fill="#ff7f0e"/>
+    <text x="670" y="245" font-size="12">Xiongnu (44.0%)</text>
+    
+    <path class="migration-path" d="M300,270 C400,260 500,270 600,260" 
+          stroke="#ff7f0e" stroke-width="3" fill="none"/>
+    <circle cx="300" cy="270" r="5" fill="#ff7f0e"/>
+    <text x="620" y="265" font-size="12">Gandhara (19.6%)</text>
+  </g>
+
+  <!-- Late Antiquity component paths -->
+  <g class="late-antiquity">
+    <path class="migration-path" d="M200,350 C350,340 500,350 650,340" 
+          stroke="#2ca02c" stroke-width="3" fill="none"/>
+    <circle cx="200" cy="350" r="5" fill="#2ca02c"/>
+    <text x="670" y="345" font-size="12">Hunnic (45.8%)</text>
+    
+    <path class="migration-path" d="M300,370 C400,360 500,370 600,360" 
+          stroke="#2ca02c" stroke-width="3" fill="none"/>
+    <circle cx="300" cy="370" r="5" fill="#2ca02c"/>
+    <text x="620" y="365" font-size="12">Khotanese (24.4%)</text>
+  </g>
+
+  <!-- Medieval component paths -->
+  <g class="medieval">
+    <path class="migration-path" d="M200,450 C350,440 500,450 650,440" 
+          stroke="#d62728" stroke-width="3" fill="none"/>
+    <circle cx="200" cy="450" r="5" fill="#d62728"/>
+    <text x="670" y="445" font-size="12">Turkic (48.8%)</text>
+    
+    <path class="migration-path" d="M300,470 C400,460 500,470 600,460" 
+          stroke="#d62728" stroke-width="3" fill="none"/>
+    <circle cx="300" cy="470" r="5" fill="#d62728"/>
+    <text x="620" y="465" font-size="12">Mongolic (22.4%)</text>
+  </g>
+
+  <!-- Modern Uyghur position -->
+  <g class="modern-marker">
+    <circle cx="400" cy="520" r="8" fill="red"/>
+    <circle cx="400" cy="520" r="10" fill="none" stroke="red" stroke-width="1">
+      <animate attributeName="r" from="10" to="15" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="420" y="525" font-size="14" fill="red" font-weight="bold">Modern Uyghur</text>
+  </g>
+
+  <!-- Genetic markers -->
+  <g transform="translate(50,50)">
+    <text font-size="14" font-weight="bold">Your Genetic Markers:</text>
+    <text x="0" y="25" font-size="12">Y-DNA: J F3133 (West Asian)</text>
+    <text x="0" y="45" font-size="12">mtDNA: C5b1 (East/Central Asian)</text>
+  </g>
+
+  <!-- Summary percentages -->
+  <g transform="translate(500,50)">
+    <text font-size="14" font-weight="bold">Major Components:</text>
+    <text x="0" y="25" font-size="12">Eastern Eurasian: ~60%</text>
+    <text x="0" y="45" font-size="12">Western Eurasian: ~40%</text>
+  </g>
+</svg>
