@@ -1,7 +1,7 @@
 # GPS-Uyghur
 
 ## Autosomal DNA analysis
-![Alt text](Enhanced_Historical_Flow.png.png)
+![Alt text](ancestry_diagram.png)
 
 ## Maternal-Paternal lineage migration analysis
 ![Alt text](migration.png)
