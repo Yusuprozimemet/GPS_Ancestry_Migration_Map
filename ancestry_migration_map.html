@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6a324e5c15e09037e2b5218f0e23ca59 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+    <div style="position: fixed; bottom: 50px; left: 50px; z-index: 1000; background-color: white; 
+                padding: 10px; border: 2px solid grey; border-radius: 5px; font-size: 12px;">
+        <b>Legend</b><br>
+    
+        <i style="background:blue; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Pre-Neolithic<br>
+        
+        <i style="background:green; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Neolithic<br>
+        
+        <i style="background:red; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Bronze Age<br>
+        
+        <i style="background:orange; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Iron Age<br>
+        
+        <i style="background:purple; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Late Antiquity<br>
+        
+        <i style="background:pink; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Middle Age<br>
+        
+        <i style="background:gold; width: 10px; height: 10px; display: inline-block; margin-right: 5px;"></i>Modern<br>
+        
+        <hr>
+        <p>Hover over circles for more details.</p>
+    </div>
+    
+    
+            <div class="folium-map" id="map_6a324e5c15e09037e2b5218f0e23ca59" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6a324e5c15e09037e2b5218f0e23ca59 = L.map(
+                "map_6a324e5c15e09037e2b5218f0e23ca59",
+                {
+                    center: [45.0, 75.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9200c6d8d729d27c5659e407c7ac52c9 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9200c6d8d729d27c5659e407c7ac52c9.addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var circle_marker_b4a2afa572c114cf032a263ecf11ca98 = L.circleMarker(
+                [55.0, 30.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_0de17c879055e3266d9a69528b5a1324 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8b1df1c859e241cc83c302eae7cf21d = $(`<div id="html_d8b1df1c859e241cc83c302eae7cf21d" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>European Hunter-Gatherer</b><br>             Period: Pre-Neolithic<br>             Contribution: 14.4%         </div>         </div>`)[0];
+                popup_0de17c879055e3266d9a69528b5a1324.setContent(html_d8b1df1c859e241cc83c302eae7cf21d);
+            
+        
+
+        circle_marker_b4a2afa572c114cf032a263ecf11ca98.bindPopup(popup_0de17c879055e3266d9a69528b5a1324)
+        ;
+
+        
+    
+    
+            var circle_marker_1ab853eec0eb87bbd37914a19b47b0c5 = L.circleMarker(
+                [42.0, 45.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_b5400e244ee3c3853267308608d63972 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_326f133c33546deabbcf68c30370cd16 = $(`<div id="html_326f133c33546deabbcf68c30370cd16" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Caucasus Hunter-Gatherer</b><br>             Period: Pre-Neolithic<br>             Contribution: 4.8%         </div>         </div>`)[0];
+                popup_b5400e244ee3c3853267308608d63972.setContent(html_326f133c33546deabbcf68c30370cd16);
+            
+        
+
+        circle_marker_1ab853eec0eb87bbd37914a19b47b0c5.bindPopup(popup_b5400e244ee3c3853267308608d63972)
+        ;
+
+        
+    
+    
+            var circle_marker_0e449d492e3999ebd5cdf50c02bb767d = L.circleMarker(
+                [47.0, 100.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.3, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_c1898651de562efce6617bad0b4e4746 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_175a4d9abeb363f445088c5fd3272e2f = $(`<div id="html_175a4d9abeb363f445088c5fd3272e2f" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Mongolia Hunter-Gatherer</b><br>             Period: Pre-Neolithic<br>             Contribution: 20.6%         </div>         </div>`)[0];
+                popup_c1898651de562efce6617bad0b4e4746.setContent(html_175a4d9abeb363f445088c5fd3272e2f);
+            
+        
+
+        circle_marker_0e449d492e3999ebd5cdf50c02bb767d.bindPopup(popup_c1898651de562efce6617bad0b4e4746)
+        ;
+
+        
+    
+    
+            var circle_marker_4855dcfd80a73a72995a8b796fe60419 = L.circleMarker(
+                [62.0, 120.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_a3aab0aead669af20c71a37363b5454d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aa7f20362f6f76a61f44ab9521d18e68 = $(`<div id="html_aa7f20362f6f76a61f44ab9521d18e68" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>East Siberian Hunter-Gatherer</b><br>             Period: Pre-Neolithic<br>             Contribution: 7.2%         </div>         </div>`)[0];
+                popup_a3aab0aead669af20c71a37363b5454d.setContent(html_aa7f20362f6f76a61f44ab9521d18e68);
+            
+        
+
+        circle_marker_4855dcfd80a73a72995a8b796fe60419.bindPopup(popup_a3aab0aead669af20c71a37363b5454d)
+        ;
+
+        
+    
+    
+            var circle_marker_58c0c7b09c8031c1f1d7f28ce5eb26b4 = L.circleMarker(
+                [20.0, 77.0],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_0a46909d80180b73cd1c6496b6400707 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56a6411a4c7593c39de5010650d49537 = $(`<div id="html_56a6411a4c7593c39de5010650d49537" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Ancient Ancestral South Indian</b><br>             Period: Pre-Neolithic<br>             Contribution: 0.8%         </div>         </div>`)[0];
+                popup_0a46909d80180b73cd1c6496b6400707.setContent(html_56a6411a4c7593c39de5010650d49537);
+            
+        
+
+        circle_marker_58c0c7b09c8031c1f1d7f28ce5eb26b4.bindPopup(popup_0a46909d80180b73cd1c6496b6400707)
+        ;
+
+        
+    
+    
+            var circle_marker_5fd977c07a23d161f38334a21820c9b1 = L.circleMarker(
+                [34.0, 45.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.4, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_71c3c8d25480e926d756ea867c6f5db7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3bfada0ad6d894ee12711749a7b4ee0f = $(`<div id="html_3bfada0ad6d894ee12711749a7b4ee0f" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Zagros Neolithic Farmer</b><br>             Period: Neolithic<br>             Contribution: 32.8%         </div>         </div>`)[0];
+                popup_71c3c8d25480e926d756ea867c6f5db7.setContent(html_3bfada0ad6d894ee12711749a7b4ee0f);
+            
+        
+
+        circle_marker_5fd977c07a23d161f38334a21820c9b1.bindPopup(popup_71c3c8d25480e926d756ea867c6f5db7)
+        ;
+
+        
+    
+    
+            var circle_marker_444529625d3e617c7c8359b5ce005352 = L.circleMarker(
+                [39.0, 35.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_2c7e68629d207d219789a68a78862c6d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_07b98fc9ea956443d79467f621ca22f3 = $(`<div id="html_07b98fc9ea956443d79467f621ca22f3" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Anatolian Neolithic Farmer</b><br>             Period: Neolithic<br>             Contribution: 5.0%         </div>         </div>`)[0];
+                popup_2c7e68629d207d219789a68a78862c6d.setContent(html_07b98fc9ea956443d79467f621ca22f3);
+            
+        
+
+        circle_marker_444529625d3e617c7c8359b5ce005352.bindPopup(popup_2c7e68629d207d219789a68a78862c6d)
+        ;
+
+        
+    
+    
+            var circle_marker_1e098bd376694ad848a3bb8ce022c850 = L.circleMarker(
+                [35.0, 114.0],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_fda2596e9ed039e403513157bc08cf1d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b0f306c240949c009f113c618f2026a9 = $(`<div id="html_b0f306c240949c009f113c618f2026a9" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Yellow River Neolithic Farmer</b><br>             Period: Neolithic<br>             Contribution: 14.4%         </div>         </div>`)[0];
+                popup_fda2596e9ed039e403513157bc08cf1d.setContent(html_b0f306c240949c009f113c618f2026a9);
+            
+        
+
+        circle_marker_1e098bd376694ad848a3bb8ce022c850.bindPopup(popup_fda2596e9ed039e403513157bc08cf1d)
+        ;
+
+        
+    
+    
+            var circle_marker_c5b85f288ab7cc832b914df12e6696be = L.circleMarker(
+                [50.0, 70.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.4, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_cfe7c153e9c1598a9517350c74015b11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cf15f8e44f12c64b3d8be33a49551ee = $(`<div id="html_1cf15f8e44f12c64b3d8be33a49551ee" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Central Steppe</b><br>             Period: Bronze Age<br>             Contribution: 24.8%         </div>         </div>`)[0];
+                popup_cfe7c153e9c1598a9517350c74015b11.setContent(html_1cf15f8e44f12c64b3d8be33a49551ee);
+            
+        
+
+        circle_marker_c5b85f288ab7cc832b914df12e6696be.bindPopup(popup_cfe7c153e9c1598a9517350c74015b11)
+        ;
+
+        
+    
+    
+            var circle_marker_3190655dc26bd7c65a7f942d3edb8dde = L.circleMarker(
+                [48.0, 90.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.3, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_db685861f66d2d0f36bebffa3d830257 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69cf96e7b446fecee32facaa549e3c98 = $(`<div id="html_69cf96e7b446fecee32facaa549e3c98" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Eastern Steppe</b><br>             Period: Bronze Age<br>             Contribution: 24.6%         </div>         </div>`)[0];
+                popup_db685861f66d2d0f36bebffa3d830257.setContent(html_69cf96e7b446fecee32facaa549e3c98);
+            
+        
+
+        circle_marker_3190655dc26bd7c65a7f942d3edb8dde.bindPopup(popup_db685861f66d2d0f36bebffa3d830257)
+        ;
+
+        
+    
+    
+            var circle_marker_a40a7ded4b0680b8a0a0c5ca84fdf08a = L.circleMarker(
+                [37.0, 62.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_f9c27946107a9ede030e00053945289e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_06627114a2fbb391048e41d54bfc835a = $(`<div id="html_06627114a2fbb391048e41d54bfc835a" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>BMAC</b><br>             Period: Bronze Age<br>             Contribution: 19.0%         </div>         </div>`)[0];
+                popup_f9c27946107a9ede030e00053945289e.setContent(html_06627114a2fbb391048e41d54bfc835a);
+            
+        
+
+        circle_marker_a40a7ded4b0680b8a0a0c5ca84fdf08a.bindPopup(popup_f9c27946107a9ede030e00053945289e)
+        ;
+
+        
+    
+    
+            var circle_marker_d45d1bc12a8855797cc1b67894ce5a69 = L.circleMarker(
+                [35.0, 114.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.2, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_3f9730aae3480e4efed84e0a92419675 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce2843b6dbe3ca8dbc7e0733ba273051 = $(`<div id="html_ce2843b6dbe3ca8dbc7e0733ba273051" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Yellow River</b><br>             Period: Bronze Age<br>             Contribution: 14.4%         </div>         </div>`)[0];
+                popup_3f9730aae3480e4efed84e0a92419675.setContent(html_ce2843b6dbe3ca8dbc7e0733ba273051);
+            
+        
+
+        circle_marker_d45d1bc12a8855797cc1b67894ce5a69.bindPopup(popup_3f9730aae3480e4efed84e0a92419675)
+        ;
+
+        
+    
+    
+            var circle_marker_86ce68fe1844a330cc2ddb2710fd5fc8 = L.circleMarker(
+                [30.0, 73.0],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_c471c21ae95ffaaca58b5a697d43c4ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37bda47e97548c81f08273f224c9a482 = $(`<div id="html_37bda47e97548c81f08273f224c9a482" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Indus Valley</b><br>             Period: Bronze Age<br>             Contribution: 8.2%         </div>         </div>`)[0];
+                popup_c471c21ae95ffaaca58b5a697d43c4ea.setContent(html_37bda47e97548c81f08273f224c9a482);
+            
+        
+
+        circle_marker_86ce68fe1844a330cc2ddb2710fd5fc8.bindPopup(popup_c471c21ae95ffaaca58b5a697d43c4ea)
+        ;
+
+        
+    
+    
+            var circle_marker_799592b3cfd8570ec6f786f017d9355f = L.circleMarker(
+                [46.0, 100.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.0, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_98a8c07f2fce582729a881ccda881723 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d62f030c3dc479a34586d0aa4074c9b0 = $(`<div id="html_d62f030c3dc479a34586d0aa4074c9b0" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Xiongnu</b><br>             Period: Iron Age<br>             Contribution: 44.0%         </div>         </div>`)[0];
+                popup_98a8c07f2fce582729a881ccda881723.setContent(html_d62f030c3dc479a34586d0aa4074c9b0);
+            
+        
+
+        circle_marker_799592b3cfd8570ec6f786f017d9355f.bindPopup(popup_98a8c07f2fce582729a881ccda881723)
+        ;
+
+        
+    
+    
+            var circle_marker_a865d7f4c5758ec93e42dd6490ebe237 = L.circleMarker(
+                [34.0, 72.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.8, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_cb827916a0789f83d111e1f585e1f595 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1a942567dba9ceaedef5c2cdd25ba7d = $(`<div id="html_c1a942567dba9ceaedef5c2cdd25ba7d" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Gandhara</b><br>             Period: Iron Age<br>             Contribution: 19.6%         </div>         </div>`)[0];
+                popup_cb827916a0789f83d111e1f585e1f595.setContent(html_c1a942567dba9ceaedef5c2cdd25ba7d);
+            
+        
+
+        circle_marker_a865d7f4c5758ec93e42dd6490ebe237.bindPopup(popup_cb827916a0789f83d111e1f585e1f595)
+        ;
+
+        
+    
+    
+            var circle_marker_7a995f1af8748dcce7f643dd0891e630 = L.circleMarker(
+                [38.0, 59.0],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.6, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_3ffb8ec18436c5e96beb38f4bd7a90d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e7c2927aceb2ff62dfc383f9504574e = $(`<div id="html_2e7c2927aceb2ff62dfc383f9504574e" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Yaz Culture</b><br>             Period: Iron Age<br>             Contribution: 15.2%         </div>         </div>`)[0];
+                popup_3ffb8ec18436c5e96beb38f4bd7a90d1.setContent(html_2e7c2927aceb2ff62dfc383f9504574e);
+            
+        
+
+        circle_marker_7a995f1af8748dcce7f643dd0891e630.bindPopup(popup_3ffb8ec18436c5e96beb38f4bd7a90d1)
+        ;
+
+        
+    
+    
+            var circle_marker_107c46dcbe2f9279e1751b79b9c633e3 = L.circleMarker(
+                [48.0, 80.0],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 22.9, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_7b3878ddd5b08e808035ee2f8f1ed456 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dfdb0954640197fbd3e8891ed8378dde = $(`<div id="html_dfdb0954640197fbd3e8891ed8378dde" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Hunnic</b><br>             Period: Late Antiquity<br>             Contribution: 45.8%         </div>         </div>`)[0];
+                popup_7b3878ddd5b08e808035ee2f8f1ed456.setContent(html_dfdb0954640197fbd3e8891ed8378dde);
+            
+        
+
+        circle_marker_107c46dcbe2f9279e1751b79b9c633e3.bindPopup(popup_7b3878ddd5b08e808035ee2f8f1ed456)
+        ;
+
+        
+    
+    
+            var circle_marker_08964b3a5e09a95293d51b1282f4d78d = L.circleMarker(
+                [37.0, 80.0],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.2, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_5d96842484ace19a2cee9989fa54cb6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92f7e165b0007fc5c147a2a14b0d1ed8 = $(`<div id="html_92f7e165b0007fc5c147a2a14b0d1ed8" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Khotanese Saka</b><br>             Period: Late Antiquity<br>             Contribution: 24.4%         </div>         </div>`)[0];
+                popup_5d96842484ace19a2cee9989fa54cb6a.setContent(html_92f7e165b0007fc5c147a2a14b0d1ed8);
+            
+        
+
+        circle_marker_08964b3a5e09a95293d51b1282f4d78d.bindPopup(popup_5d96842484ace19a2cee9989fa54cb6a)
+        ;
+
+        
+    
+    
+            var circle_marker_ef745f03d84edf8aa7d6244880c8b0ea = L.circleMarker(
+                [33.0, 53.0],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.5, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_73a2d0d29dc6d450c06bb721297a3638 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68d507bd8ba597b9625a6dcd370b57e7 = $(`<div id="html_68d507bd8ba597b9625a6dcd370b57e7" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Iranian Plateau</b><br>             Period: Late Antiquity<br>             Contribution: 21.0%         </div>         </div>`)[0];
+                popup_73a2d0d29dc6d450c06bb721297a3638.setContent(html_68d507bd8ba597b9625a6dcd370b57e7);
+            
+        
+
+        circle_marker_ef745f03d84edf8aa7d6244880c8b0ea.bindPopup(popup_73a2d0d29dc6d450c06bb721297a3638)
+        ;
+
+        
+    
+    
+            var circle_marker_43c35bdc1dbeeb9821e92ad4970b56a6 = L.circleMarker(
+                [42.0, 75.0],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 24.4, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_5956d01683e55f8f4f13866758deae20 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3ae3797029e27cd0224128096fff5fda = $(`<div id="html_3ae3797029e27cd0224128096fff5fda" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Turkic</b><br>             Period: Middle Age<br>             Contribution: 48.8%         </div>         </div>`)[0];
+                popup_5956d01683e55f8f4f13866758deae20.setContent(html_3ae3797029e27cd0224128096fff5fda);
+            
+        
+
+        circle_marker_43c35bdc1dbeeb9821e92ad4970b56a6.bindPopup(popup_5956d01683e55f8f4f13866758deae20)
+        ;
+
+        
+    
+    
+            var circle_marker_3a79fe88ea1629aeafa4211d14a90b08 = L.circleMarker(
+                [36.0, 58.0],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.6, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_cbc5807693ee34750e6832df1a02d3d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_942f10ef3c64cfe520204f2552d68832 = $(`<div id="html_942f10ef3c64cfe520204f2552d68832" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Khorasan</b><br>             Period: Middle Age<br>             Contribution: 23.2%         </div>         </div>`)[0];
+                popup_cbc5807693ee34750e6832df1a02d3d5.setContent(html_942f10ef3c64cfe520204f2552d68832);
+            
+        
+
+        circle_marker_3a79fe88ea1629aeafa4211d14a90b08.bindPopup(popup_cbc5807693ee34750e6832df1a02d3d5)
+        ;
+
+        
+    
+    
+            var circle_marker_2cf8d11827f59d7d0e399e8861ab33c8 = L.circleMarker(
+                [47.0, 105.0],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 11.2, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_e236908184fd7056f7e078e3e02d88ea = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89f62f039c6049b940e75fc7bf74b6dd = $(`<div id="html_89f62f039c6049b940e75fc7bf74b6dd" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Mongolic</b><br>             Period: Middle Age<br>             Contribution: 22.4%         </div>         </div>`)[0];
+                popup_e236908184fd7056f7e078e3e02d88ea.setContent(html_89f62f039c6049b940e75fc7bf74b6dd);
+            
+        
+
+        circle_marker_2cf8d11827f59d7d0e399e8861ab33c8.bindPopup(popup_e236908184fd7056f7e078e3e02d88ea)
+        ;
+
+        
+    
+    
+            var circle_marker_9920b3c9a4d3e0385ba6987b1803e7e2 = L.circleMarker(
+                [37.0, 80.0],
+                {"bubblingMouseEvents": true, "color": "gold", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "gold", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 50.0, "stroke": true, "weight": 1}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+        var popup_46a9d76c391dd696766ccb397495e82f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_59871549c7806068c9a1bd9e390a76f9 = $(`<div id="html_59871549c7806068c9a1bd9e390a76f9" style="width: 100.0%; height: 100.0%;">         <div style='font-family: Arial'>             <b>Modern Khotan/Uyghur</b><br>             Period: Modern<br>             Contribution: 100%         </div>         </div>`)[0];
+                popup_46a9d76c391dd696766ccb397495e82f.setContent(html_59871549c7806068c9a1bd9e390a76f9);
+            
+        
+
+        circle_marker_9920b3c9a4d3e0385ba6987b1803e7e2.bindPopup(popup_46a9d76c391dd696766ccb397495e82f)
+        ;
+
+        
+    
+    
+            var poly_line_488a69ce1e4558eefc1bc6df7c790991 = L.polyline(
+                [[55.0, 30.0], [50.0, 70.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_bc60e3bb6cf30b33cc38c8602317dafa = L.polyline(
+                [[42.0, 45.0], [50.0, 70.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_8434a22919d135e775beafd94d3ff0a4 = L.polyline(
+                [[47.0, 100.0], [48.0, 90.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_df4e038cbb8abf50a0a6de38cd2467d8 = L.polyline(
+                [[62.0, 120.0], [48.0, 90.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_e54c3c5fa93f27fe096785c37646922c = L.polyline(
+                [[20.0, 77.0], [30.0, 73.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_8a186760ae4fd8164baafc082e155c80 = L.polyline(
+                [[34.0, 45.0], [37.0, 62.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_0b9bcc1bf33caec718c6df9e5b9878eb = L.polyline(
+                [[39.0, 35.0], [37.0, 62.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_076ca52dafa80dd93a6b31ffbea95a91 = L.polyline(
+                [[35.0, 114.0], [35.0, 114.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_d51d9f58484615e19062f6a33e42fd35 = L.polyline(
+                [[50.0, 70.0], [46.0, 100.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_fb0b5e4524525e0b82702fee5ae4c3e6 = L.polyline(
+                [[48.0, 90.0], [46.0, 100.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_f82b5c9caaacb4088f080b2a8fe292cf = L.polyline(
+                [[35.0, 114.0], [46.0, 100.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_81261b72b684e4fc9ebb506fde922331 = L.polyline(
+                [[37.0, 62.0], [34.0, 72.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_7d0982fe452b36bd71f9efc609a31e89 = L.polyline(
+                [[37.0, 62.0], [38.0, 59.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_89f61f90efe13301a3a12ea1ec3bb35b = L.polyline(
+                [[30.0, 73.0], [34.0, 72.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_6cba51aa98395ac5bdd56e3444cd9645 = L.polyline(
+                [[46.0, 100.0], [48.0, 80.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_d3f6152dbf79a3cb2d5020f6ce4542d2 = L.polyline(
+                [[34.0, 72.0], [37.0, 80.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_066b9748ec58917ed6d9cf34eb5ba70d = L.polyline(
+                [[38.0, 59.0], [33.0, 53.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_0e7e337b8cd029f10f508fe3fef6d775 = L.polyline(
+                [[48.0, 80.0], [42.0, 75.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_4e91f7fe4d797092b2de0ad7d08214ab = L.polyline(
+                [[37.0, 80.0], [36.0, 58.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_0b6e4f8356c17c1ac064b3cb03dbe77f = L.polyline(
+                [[33.0, 53.0], [36.0, 58.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_84ba1bbb8bbc9dbbb01d24701eaeeab7 = L.polyline(
+                [[42.0, 75.0], [37.0, 80.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_2dd35f7bb65725177fb113218c65c033 = L.polyline(
+                [[36.0, 58.0], [37.0, 80.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+    
+            var poly_line_5371442c2fa8ac6b75c6ab824534ca06 = L.polyline(
+                [[47.0, 105.0], [37.0, 80.0]],
+                {"bubblingMouseEvents": true, "color": "gray", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "gray", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 1.5}
+            ).addTo(map_6a324e5c15e09037e2b5218f0e23ca59);
+        
+</script>
+</html>
