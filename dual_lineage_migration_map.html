@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_64530e10e557ede13a6d566d121d01e7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-ant-path@1.1.2/dist/leaflet-ant-path.min.js"></script>
+</head>
+<body>
+    
+    
+<div style="position: fixed; 
+            bottom: 50px; left: 50px; 
+            width: 300px; 
+            background-color: white; 
+            border:2px solid grey; 
+            z-index:9999; 
+            font-size:14px; 
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+    <div style="font-size:16px; font-weight:bold; margin-bottom:10px;">
+        Maternal and Paternal Migration Paths
+    </div>
+    <div style="margin-bottom:10px;">
+        <span style="color: red; font-size:20px;">●</span> 
+        Maternal Line (mtDNA C5b1)
+        <br><span style="font-size:12px; color:grey; margin-left:20px;">
+            East Asian origin, moving through Mongolia and Altai
+        </span>
+    </div>
+    <div style="margin-bottom:10px;">
+        <span style="color: blue; font-size:20px;">●</span> 
+        Paternal Line (Y-DNA J F3133)
+        <br><span style="font-size:12px; color:grey; margin-left:20px;">
+            West Asian origin, moving through Central Asia
+        </span>
+    </div>
+    <div style="margin-top:10px; font-size:12px; color:grey;">
+        * Animated lines show migration paths
+        <br>* Markers show major historical locations
+        <br>* Click markers for detailed information
+    </div>
+</div>
+    
+<div style="position: fixed; 
+            top: 10px; left: 50px; 
+            width: 300px;
+            background-color: white; 
+            border:2px solid grey; 
+            z-index:9999; 
+            font-size:14px; 
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);">
+    <h3 style="margin-top:0;">Dual Lineage Migration Paths</h3>
+    <p style="font-size:12px;">
+        <b>Maternal Line (mtDNA):</b> C5b1
+        <br>East Asian origin, typically found in Siberian and Mongolian populations
+        <br><br><b>Paternal Line (Y-DNA):</b> J F3133
+        <br>West Asian origin, associated with early agricultural societies
+        <br><br><b>Current Location:</b> Khotan (Uyghur region)
+    </p>
+</div>
+    
+            <div class="folium-map" id="map_64530e10e557ede13a6d566d121d01e7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_64530e10e557ede13a6d566d121d01e7 = L.map(
+                "map_64530e10e557ede13a6d566d121d01e7",
+                {
+                    center: [40.0, 80.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a201c95c39732d85b13d0a6dc8a6e545 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_a201c95c39732d85b13d0a6dc8a6e545.addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var tile_layer_03c71c3e65c92e5322d2011199c7e0ba = L.tileLayer(
+                "Stamen Terrain",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_03c71c3e65c92e5322d2011199c7e0ba.addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var marker_e525c7a1ee5777d03b4dd2f86e1decb0 = L.marker(
+                [52.0, 105.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_68e76facb7f6aca112a87616217e3420 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_e525c7a1ee5777d03b4dd2f86e1decb0.setIcon(icon_68e76facb7f6aca112a87616217e3420);
+        
+    
+        var popup_65c02e3c6a6277167c525203ccba0e35 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_3e00dd5ba5817eb72beac294242f16dd = $(`<div id="html_3e00dd5ba5817eb72beac294242f16dd" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Maternal Line: Early C5</h4>         <p><b>Period:</b> Pre-Bronze Age</p>         <p><b>Date:</b> 15000-8000 BCE</p>         <p><b>Details:</b> Origin of mt-DNA C5</p>     </div>     </div>`)[0];
+                popup_65c02e3c6a6277167c525203ccba0e35.setContent(html_3e00dd5ba5817eb72beac294242f16dd);
+            
+        
+
+        marker_e525c7a1ee5777d03b4dd2f86e1decb0.bindPopup(popup_65c02e3c6a6277167c525203ccba0e35)
+        ;
+
+        
+    
+    
+            marker_e525c7a1ee5777d03b4dd2f86e1decb0.bindTooltip(
+                `<div>
+                     Maternal: Early C5
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_afc3fa32315a4e52f062fcd7b09ce55f = L.marker(
+                [52.0, 107.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_898b8fed96fb167d1f7837d93562951b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_afc3fa32315a4e52f062fcd7b09ce55f.setIcon(icon_898b8fed96fb167d1f7837d93562951b);
+        
+    
+        var popup_717634b312cfe61194257c06fecce4ff = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f679342e5f695b2f1c838b78fed8b41d = $(`<div id="html_f679342e5f695b2f1c838b78fed8b41d" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Maternal Line: Lake Baikal</h4>         <p><b>Period:</b> Bronze Age</p>         <p><b>Date:</b> 3000-2000 BCE</p>         <p><b>Details:</b> Early C5b1 presence</p>     </div>     </div>`)[0];
+                popup_717634b312cfe61194257c06fecce4ff.setContent(html_f679342e5f695b2f1c838b78fed8b41d);
+            
+        
+
+        marker_afc3fa32315a4e52f062fcd7b09ce55f.bindPopup(popup_717634b312cfe61194257c06fecce4ff)
+        ;
+
+        
+    
+    
+            marker_afc3fa32315a4e52f062fcd7b09ce55f.bindTooltip(
+                `<div>
+                     Maternal: Lake Baikal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0cbca5b6666e76bad84af0b4a7cb1950 = L.marker(
+                [47.0, 103.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_dba063c4eb6ed7b017389071d2d08739 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_0cbca5b6666e76bad84af0b4a7cb1950.setIcon(icon_dba063c4eb6ed7b017389071d2d08739);
+        
+    
+        var popup_a70b08b1e4c955e711956b6a71045065 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_d19565520cf48f305d7c8e79e50ecbdc = $(`<div id="html_d19565520cf48f305d7c8e79e50ecbdc" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Maternal Line: Mongolia</h4>         <p><b>Period:</b> Iron Age</p>         <p><b>Date:</b> 1000-500 BCE</p>         <p><b>Details:</b> C5b1 in Xiongnu populations</p>     </div>     </div>`)[0];
+                popup_a70b08b1e4c955e711956b6a71045065.setContent(html_d19565520cf48f305d7c8e79e50ecbdc);
+            
+        
+
+        marker_0cbca5b6666e76bad84af0b4a7cb1950.bindPopup(popup_a70b08b1e4c955e711956b6a71045065)
+        ;
+
+        
+    
+    
+            marker_0cbca5b6666e76bad84af0b4a7cb1950.bindTooltip(
+                `<div>
+                     Maternal: Mongolia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d83e63c5fa33cd7753ed00663fe8f0d8 = L.marker(
+                [45.0, 88.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_fdb7453c995bb80e7cbe03cd29ee8fd7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_d83e63c5fa33cd7753ed00663fe8f0d8.setIcon(icon_fdb7453c995bb80e7cbe03cd29ee8fd7);
+        
+    
+        var popup_14003e2083a543fc546b2ab3b2e78627 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f368a863627cc21d359789dfe04705e5 = $(`<div id="html_f368a863627cc21d359789dfe04705e5" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Maternal Line: Altai</h4>         <p><b>Period:</b> Late Antiquity</p>         <p><b>Date:</b> 300-600 CE</p>         <p><b>Details:</b> Movement into Altai region</p>     </div>     </div>`)[0];
+                popup_14003e2083a543fc546b2ab3b2e78627.setContent(html_f368a863627cc21d359789dfe04705e5);
+            
+        
+
+        marker_d83e63c5fa33cd7753ed00663fe8f0d8.bindPopup(popup_14003e2083a543fc546b2ab3b2e78627)
+        ;
+
+        
+    
+    
+            marker_d83e63c5fa33cd7753ed00663fe8f0d8.bindTooltip(
+                `<div>
+                     Maternal: Altai
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_13a40804c3a1f30e24c4ae3ed7c6659d = L.marker(
+                [41.0, 84.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_a48db1264f916b3c346f51984732b3f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_13a40804c3a1f30e24c4ae3ed7c6659d.setIcon(icon_a48db1264f916b3c346f51984732b3f2);
+        
+    
+        var popup_c168b50cb88bcfa80f7784d527053f8b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_e1af0afe6f91599048bd6da640c5db78 = $(`<div id="html_e1af0afe6f91599048bd6da640c5db78" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Maternal Line: Tarim Basin</h4>         <p><b>Period:</b> Medieval</p>         <p><b>Date:</b> 600-1000 CE</p>         <p><b>Details:</b> Arrival in Tarim Basin</p>     </div>     </div>`)[0];
+                popup_c168b50cb88bcfa80f7784d527053f8b.setContent(html_e1af0afe6f91599048bd6da640c5db78);
+            
+        
+
+        marker_13a40804c3a1f30e24c4ae3ed7c6659d.bindPopup(popup_c168b50cb88bcfa80f7784d527053f8b)
+        ;
+
+        
+    
+    
+            marker_13a40804c3a1f30e24c4ae3ed7c6659d.bindTooltip(
+                `<div>
+                     Maternal: Tarim Basin
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_71637ea3ecdce6c9493b24fea15e8223 = L.marker(
+                [37.0, 80.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_73ef531ae48cc8f2009aee45a682fe5b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_71637ea3ecdce6c9493b24fea15e8223.setIcon(icon_73ef531ae48cc8f2009aee45a682fe5b);
+        
+    
+        var popup_f7b461a3473f7da0f39954d0802ffe02 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_41cfdf1f73e66c8000af789f6df79fa3 = $(`<div id="html_41cfdf1f73e66c8000af789f6df79fa3" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Maternal Line: Khotan</h4>         <p><b>Period:</b> Present</p>         <p><b>Date:</b> Current</p>         <p><b>Details:</b> Present location</p>     </div>     </div>`)[0];
+                popup_f7b461a3473f7da0f39954d0802ffe02.setContent(html_41cfdf1f73e66c8000af789f6df79fa3);
+            
+        
+
+        marker_71637ea3ecdce6c9493b24fea15e8223.bindPopup(popup_f7b461a3473f7da0f39954d0802ffe02)
+        ;
+
+        
+    
+    
+            marker_71637ea3ecdce6c9493b24fea15e8223.bindTooltip(
+                `<div>
+                     Maternal: Khotan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_77fbb4e53aa8f5bb17701441ed1faa07 = L.marker(
+                [34.0, 46.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_6177615c9ab72c9297e194a193d1917c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_77fbb4e53aa8f5bb17701441ed1faa07.setIcon(icon_6177615c9ab72c9297e194a193d1917c);
+        
+    
+        var popup_c74d4d1e4582382cdcc3a727a19030b1 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_db95c780a54c0d2a7ba1fba358cb28bb = $(`<div id="html_db95c780a54c0d2a7ba1fba358cb28bb" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Paternal Line: Zagros</h4>         <p><b>Period:</b> Early Neolithic</p>         <p><b>Date:</b> 10000-8000 BCE</p>         <p><b>Details:</b> Origin of Y-DNA J</p>     </div>     </div>`)[0];
+                popup_c74d4d1e4582382cdcc3a727a19030b1.setContent(html_db95c780a54c0d2a7ba1fba358cb28bb);
+            
+        
+
+        marker_77fbb4e53aa8f5bb17701441ed1faa07.bindPopup(popup_c74d4d1e4582382cdcc3a727a19030b1)
+        ;
+
+        
+    
+    
+            marker_77fbb4e53aa8f5bb17701441ed1faa07.bindTooltip(
+                `<div>
+                     Paternal: Zagros
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_8eb5b207debb4ed348f8fe7c3e515d54 = L.marker(
+                [33.0, 44.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_e3acd496e303dcccb53e5d75832b41b2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_8eb5b207debb4ed348f8fe7c3e515d54.setIcon(icon_e3acd496e303dcccb53e5d75832b41b2);
+        
+    
+        var popup_9fd660231ff3a2e38a9ebc14bf8872a5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_36c72b730f33ac470dc2c2c9f0248eee = $(`<div id="html_36c72b730f33ac470dc2c2c9f0248eee" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Paternal Line: Mesopotamia</h4>         <p><b>Period:</b> Bronze Age</p>         <p><b>Date:</b> 3000-2000 BCE</p>         <p><b>Details:</b> Early J dispersal</p>     </div>     </div>`)[0];
+                popup_9fd660231ff3a2e38a9ebc14bf8872a5.setContent(html_36c72b730f33ac470dc2c2c9f0248eee);
+            
+        
+
+        marker_8eb5b207debb4ed348f8fe7c3e515d54.bindPopup(popup_9fd660231ff3a2e38a9ebc14bf8872a5)
+        ;
+
+        
+    
+    
+            marker_8eb5b207debb4ed348f8fe7c3e515d54.bindTooltip(
+                `<div>
+                     Paternal: Mesopotamia
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_439f5a994dec9224b79dbedfb53bd491 = L.marker(
+                [37.0, 62.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_5e7b961540c27f76c424dc8694cb8912 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_439f5a994dec9224b79dbedfb53bd491.setIcon(icon_5e7b961540c27f76c424dc8694cb8912);
+        
+    
+        var popup_6715235f3c662cc730eaf40a38e5fbb0 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7617d9d9de77a3c70e04e35e0dcf3787 = $(`<div id="html_7617d9d9de77a3c70e04e35e0dcf3787" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Paternal Line: BMAC</h4>         <p><b>Period:</b> Bronze Age</p>         <p><b>Date:</b> 2000-1600 BCE</p>         <p><b>Details:</b> Movement into Central Asia</p>     </div>     </div>`)[0];
+                popup_6715235f3c662cc730eaf40a38e5fbb0.setContent(html_7617d9d9de77a3c70e04e35e0dcf3787);
+            
+        
+
+        marker_439f5a994dec9224b79dbedfb53bd491.bindPopup(popup_6715235f3c662cc730eaf40a38e5fbb0)
+        ;
+
+        
+    
+    
+            marker_439f5a994dec9224b79dbedfb53bd491.bindTooltip(
+                `<div>
+                     Paternal: BMAC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_982a5eea3b1cd1fe0de1c5683f1b1255 = L.marker(
+                [40.0, 71.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_04b941c1f5392f3cbc0bd20dc8ec3d0c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_982a5eea3b1cd1fe0de1c5683f1b1255.setIcon(icon_04b941c1f5392f3cbc0bd20dc8ec3d0c);
+        
+    
+        var popup_720811ec04957a5f8a67d7e76018cf81 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b23938c4b4654092067202c01b92c8ad = $(`<div id="html_b23938c4b4654092067202c01b92c8ad" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Paternal Line: Fergana</h4>         <p><b>Period:</b> Iron Age</p>         <p><b>Date:</b> 1000-500 BCE</p>         <p><b>Details:</b> Spread along Silk Road</p>     </div>     </div>`)[0];
+                popup_720811ec04957a5f8a67d7e76018cf81.setContent(html_b23938c4b4654092067202c01b92c8ad);
+            
+        
+
+        marker_982a5eea3b1cd1fe0de1c5683f1b1255.bindPopup(popup_720811ec04957a5f8a67d7e76018cf81)
+        ;
+
+        
+    
+    
+            marker_982a5eea3b1cd1fe0de1c5683f1b1255.bindTooltip(
+                `<div>
+                     Paternal: Fergana
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_fc6c2fa7cedca9d48ac71160519df1df = L.marker(
+                [37.0, 80.0],
+                {
+}
+            ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+            var icon_e0f472d508a36e737c8145b307b021f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+            marker_fc6c2fa7cedca9d48ac71160519df1df.setIcon(icon_e0f472d508a36e737c8145b307b021f0);
+        
+    
+        var popup_6d743892f38b8f66c991335f500cb654 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6a72d639748bf3c34752a2102506399 = $(`<div id="html_c6a72d639748bf3c34752a2102506399" style="width: 100.0%; height: 100.0%;">     <div style="font-family: Arial; min-width: 200px;">         <h4>Paternal Line: Khotan</h4>         <p><b>Period:</b> Present</p>         <p><b>Date:</b> Current</p>         <p><b>Details:</b> Present location</p>     </div>     </div>`)[0];
+                popup_6d743892f38b8f66c991335f500cb654.setContent(html_c6a72d639748bf3c34752a2102506399);
+            
+        
+
+        marker_fc6c2fa7cedca9d48ac71160519df1df.bindPopup(popup_6d743892f38b8f66c991335f500cb654)
+        ;
+
+        
+    
+    
+            marker_fc6c2fa7cedca9d48ac71160519df1df.bindTooltip(
+                `<div>
+                     Paternal: Khotan
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            ant_path_f03f06eabee72c8c1033dbb72a037027 = L.polyline.antPath(
+              [[52.0, 105.0], [52.0, 107.0], [47.0, 103.0], [45.0, 88.0], [41.0, 84.0], [37.0, 80.0]],
+              {
+  "stroke": true,
+  "color": "red",
+  "weight": 3,
+  "opacity": 0.5,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "red",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 1000,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+        var popup_cbb40da1f03ee597da93cc115abf8b79 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69fbbc1289556f010915b05c5fbc5a54 = $(`<div id="html_69fbbc1289556f010915b05c5fbc5a54" style="width: 100.0%; height: 100.0%;">Maternal Line (mtDNA C5b1) Migration Path</div>`)[0];
+                popup_cbb40da1f03ee597da93cc115abf8b79.setContent(html_69fbbc1289556f010915b05c5fbc5a54);
+            
+        
+
+        ant_path_f03f06eabee72c8c1033dbb72a037027.bindPopup(popup_cbb40da1f03ee597da93cc115abf8b79)
+        ;
+
+        
+    
+    
+            ant_path_19352353027b3d5aab8b8f8d4c23d6f4 = L.polyline.antPath(
+              [[34.0, 46.0], [33.0, 44.0], [37.0, 62.0], [40.0, 71.0], [37.0, 80.0]],
+              {
+  "stroke": true,
+  "color": "blue",
+  "weight": 3,
+  "opacity": 0.5,
+  "lineCap": "round",
+  "lineJoin": "round",
+  "dashArray": [
+10,
+20,
+],
+  "dashOffset": null,
+  "fill": false,
+  "fillColor": "blue",
+  "fillOpacity": 0.2,
+  "fillRule": "evenodd",
+  "bubblingMouseEvents": true,
+  "smoothFactor": 1.0,
+  "noClip": false,
+  "paused": false,
+  "reverse": false,
+  "hardwareAcceleration": false,
+  "delay": 1000,
+  "pulseColor": "#FFFFFF",
+}
+        ).addTo(map_64530e10e557ede13a6d566d121d01e7);
+        
+    
+        var popup_e742aaebaeef2a0a65fee6fd6639491b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11f06528259878d127c013d2f1a6aa03 = $(`<div id="html_11f06528259878d127c013d2f1a6aa03" style="width: 100.0%; height: 100.0%;">Paternal Line (Y-DNA J F3133) Migration Path</div>`)[0];
+                popup_e742aaebaeef2a0a65fee6fd6639491b.setContent(html_11f06528259878d127c013d2f1a6aa03);
+            
+        
+
+        ant_path_19352353027b3d5aab8b8f8d4c23d6f4.bindPopup(popup_e742aaebaeef2a0a65fee6fd6639491b)
+        ;
+
+        
+    
+</script>
+</html>
