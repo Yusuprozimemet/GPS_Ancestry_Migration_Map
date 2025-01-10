@@ -1,3 +1,4 @@
+## Do you have your mtDNA and Y-DNA results, as well as detailed DNA illustrations categorized by historical periods and farming communities? If so, I can help you generate migration maps for just €5—an affordable and valuable service. Feel free to reach out if you're interested! https://x.com/Yusufrozimemet
 # GPS-Uyghur
 ## Autosomal DNA migration analysis
 ![Alt text](automigration.png)
