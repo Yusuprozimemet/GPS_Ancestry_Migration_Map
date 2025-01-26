@@ -25,3 +25,5 @@ The genetic admixture of the Ashkenazi Jews is remarkably consistent worldwide. 
 In scenarios where Ashkenazi Jews remained longer in Central Asia, the contributions from Zagros Neolithic Farmers became more pronounced, while the Indo-European components decreased. Conversely, a migration further east resulted in an increase in Siberian Hunter Gatherer components.
 Research indicates at least two major waves of admixture in Uyghur genetics. The first wave involved Indo-European admixture with local groups, followed by a second wave involving Turkic (Siberian Hunter Gatherer) admixture.
 
+![Alt text](ash.png)
+![Alt text](tarim.png)
