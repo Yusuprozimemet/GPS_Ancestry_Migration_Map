@@ -25,3 +25,7 @@ You can view the interactive migration map [here](https://github.com/Yusuprozime
 ![Alt text](genetic-pca.svg)
 
 
+# Free tools
+
+https://www.exploreyourdna.com/calculator/157/standard-western-eurasian-calc.htm
+https://vahaduo.github.io/vahaduo/
