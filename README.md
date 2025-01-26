@@ -11,6 +11,9 @@ You can view the interactive migration map [here](https://github.com/Yusuprozime
 ![Alt text](migration.png)
 You can view the interactive migration map [here](https://github.com/Yusuprozimemet/GPS-Uyghur/blob/main/dual_lineage_migration_map.html)
 
+## Other researches and my own Research indicates at least two major waves of admixture in Uyghur genetics. The first wave involved Indo-European admixture with local groups, followed by a second wave involving Turkic (Siberian Hunter Gatherer) admixture.
+
+![Alt text](tarim.png)
 
 ## Autosomal DNA general analysis
 
@@ -21,9 +24,4 @@ You can view the interactive migration map [here](https://github.com/Yusuprozime
 
 ![Alt text](genetic-pca.svg)
 
-The genetic admixture of the Ashkenazi Jews is remarkably consistent worldwide. The primary genetic influences are from Anatolian Neolithic Farmers and Indo-Europeans. Additionally, Zagros Neolithic Farmers and Levantine components are notable, with a small percentage of Caucasus Hunter Gatherers also evident.
-In scenarios where Ashkenazi Jews remained longer in Central Asia, the contributions from Zagros Neolithic Farmers became more pronounced, while the Indo-European components decreased. Conversely, a migration further east resulted in an increase in Siberian Hunter Gatherer components.
-Research indicates at least two major waves of admixture in Uyghur genetics. The first wave involved Indo-European admixture with local groups, followed by a second wave involving Turkic (Siberian Hunter Gatherer) admixture.
 
-![Alt text](ash.png)
-![Alt text](tarim.png)
