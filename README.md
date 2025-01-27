@@ -17,7 +17,7 @@ You can view the interactive migration map [here](https://github.com/Yusuprozime
 
 # Radar plot with different matrics
 
-![Alt text](saka.png)
+![Alt text](saka.jpg)
 
 ## Autosomal DNA general analysis
 
