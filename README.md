@@ -16,7 +16,7 @@ You can view the interactive migration map [here](https://github.com/Yusuprozime
 ![Alt text](tarim.png)
 
 # Radar plot with different matrics
-
+My DNA shows a closer genetic alignment with Modern Uyghur than with Khotanese Saka based on several similarity measures. For example, the Cosine, Euclidean, and Manhattan distances indicate a stronger similarity to Modern Uyghur. However, in Chebyshev and Bray-Curtis similarity, my DNA is more closely aligned with Khotanese Saka. Additionally, the correlation coefficient between my DNA and Modern Uyghur is higher, while the Minkowski distance also reflects a stronger similarity to Modern Uyghur.
 ![Alt text](saka.jpg)
 
 ## Autosomal DNA general analysis
