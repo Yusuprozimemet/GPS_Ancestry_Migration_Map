@@ -15,6 +15,10 @@ You can view the interactive migration map [here](https://github.com/Yusuprozime
 
 ![Alt text](tarim.png)
 
+# Radar plot with different matrics
+
+![Alt text](saka.png)
+
 ## Autosomal DNA general analysis
 
 ![Alt text](ancestry_diagram.png)
