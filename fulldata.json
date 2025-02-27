@@ -1,0 +1,1701 @@
+{
+  "Mizrahi Jew": {
+    "Bronze age": {
+      "genetic_fit": "2.572 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 31.0 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.2 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 23.6 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.4 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 1.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.298 (Close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 43.4 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 20.0 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 18.8 },
+        { "name": "Tarim Basin (570–200 BC)", "percentage": 16.6 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.291 (Close)",
+      "ancestries": [
+        { "name": "Khotanese Saka (AD 150–300)", "percentage": 46.6 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 22.6 },
+        { "name": "Hunnic (AD 300–450)", "percentage": 15.4 },
+        { "name": "Iranian Plateau", "percentage": 8.6 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 5.8 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.461 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 89.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 9.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 },
+        { "name": "Levantine (AD 300–1300)", "percentage": 0.4 }
+      ]
+    }
+  },
+  "Ashkenazi Jew": {
+    "Bronze age": {
+      "genetic_fit": "3.789 (Close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 29.0 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 26.8 },
+        { "name": "Bronze Age Caucasian (3700–1700 BC)", "percentage": 21.4 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.2 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 4.6 },
+        { "name": "Canaanite (1800–1100 BC)", "percentage": 2.4 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "4.520 (Close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 47.2 },
+        { "name": "Colchian (780–30 BC)", "percentage": 31.2 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 13.8 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 4.8 },
+        { "name": "Berber (760–540 BC)", "percentage": 3.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.291 (Moderate)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 54.2 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 26.2 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 15.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 4.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "27.080 (Distant)",
+      "ancestries": [
+        { "name": "Slavic (AD 540–1270)", "percentage": 44.8 },
+        { "name": "European Jew (AD 1160–1400)", "percentage": 44.6 },
+        { "name": "Germanic (AD 700–1000)", "percentage": 10.6 }
+      ]
+    }
+  },
+  "Sephardic Jew": {
+    "Bronze age": {
+      "genetic_fit": "3.789 (Close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 29.0 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 26.8 },
+        { "name": "Bronze Age Caucasian (3700–1700 BC)", "percentage": 21.4 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.2 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 4.6 },
+        { "name": "Canaanite (1800–1100 BC)", "percentage": 2.4 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "5.393 (Moderate)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 53.4 },
+        { "name": "Colchian (780–30 BC)", "percentage": 34.6 },
+        { "name": "Italic and Etruscan (900–200 BC)", "percentage": 9.0 },
+        { "name": "Berber (760–540 BC)", "percentage": 2.6 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 0.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "5.192 (Moderate)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 54.2 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 26.2 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 15.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 4.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "26.662 (Distant)",
+      "ancestries": [
+        { "name": "Slavic (AD 540–1270)", "percentage": 66.2 },
+        { "name": "North African (AD 580–1160)", "percentage": 26.4 },
+        { "name": "European Jew (AD 1160–1400)", "percentage": 7.4 }
+      ]
+    }
+  },
+  "Levant": {
+    "Bronze age": {
+      "genetic_fit": "2.572 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 31.0 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.2 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 23.6 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.4 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 1.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.298 (Close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 43.4 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 20.0 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 18.8 },
+        { "name": "Tarim Basin (570–200 BC)", "percentage": 16.6 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.291 (Close)",
+      "ancestries": [
+        { "name": "Khotanese Saka (AD 150–300)", "percentage": 46.6 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 22.6 },
+        { "name": "Hunnic (AD 300–450)", "percentage": 15.4 },
+        { "name": "Iranian Plateau", "percentage": 8.6 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 5.8 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.461 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 89.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 9.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 },
+        { "name": "Levantine (AD 300–1300)", "percentage": 0.4 }
+      ]
+    }
+  },
+  "Arabian Peninsula": {
+    "Bronze age": {
+      "genetic_fit": "2.751 (Very close)",
+      "ancestries": [
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 24.8 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 24.2 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 18.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 16.8 },
+        { "name": "Bronze Age Caucasian (3700–1700 BC)", "percentage": 9.4 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 3.6 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 1.6 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 },
+        { "name": "Arabian Peninsula", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.686 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 46.0 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 31.8 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 10.2 },
+        { "name": "Phoenician (1000–330 BC)", "percentage": 5.2 },
+        { "name": "Urartian (850–750 BC)", "percentage": 3.6 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 2.6 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "17.868 (Distant)",
+      "ancestries": [
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 82.2 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 14.6 },
+        { "name": "Cushitic (2000 BC–AD 600)", "percentage": 3.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "19.180 (Distant)",
+      "ancestries": [
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 72.6 },
+        { "name": "Levantine (AD 300–1300)", "percentage": 25.4 },
+        { "name": "Sub-Saharan African", "percentage": 2.0 }
+      ]
+    }
+  },
+  "Global": {
+    "Bronze age": {
+      "genetic_fit": "2.228 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 35.8 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 12.2 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 9.4 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 8.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 7.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.4 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.6 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 6.0 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 4.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.210 (Very close)",
+      "ancestries": [
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 23.2 },
+        { "name": "Xiongnu (150–1 BC)", "percentage": 18.0 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 10.8 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 10.4 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 9.6 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 9.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.8 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 5.8 },
+        { "name": "Urartian (850–750 BC)", "percentage": 3.6 },
+        { "name": "Anatolian (780–30 BC)", "percentage": 1.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 0.6 },
+        { "name": "Egyptian (780–400 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.587 (Very close)",
+      "ancestries": [
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 23.0 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 19.4 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 19.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 15.6 },
+        { "name": "Volga (AD 200–400)", "percentage": 7.8 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 7.0 },
+        { "name": "Iranian Plateau", "percentage": 4.4 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 2.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "1.589 (Very close)",
+      "ancestries": [
+        { "name": "Mongolic (AD 900–1300)", "percentage": 26.6 },
+        { "name": "Turkic (AD 650–1200)", "percentage": 15.2 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 15.0 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 12.0 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 9.4 },
+        { "name": "Volga (AD 200–400)", "percentage": 7.0 },
+        { "name": "Iranian Plateau", "percentage": 5.4 },
+        { "name": "Baltic (AD 900–1050)", "percentage": 4.6 },
+        { "name": "Magyar", "percentage": 3.6 },
+        { "name": "Amur River (AD 620–670)", "percentage": 0.6 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    }
+  },
+  "Northwest Europe (Netherlands, Belgium)": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.131 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 53.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Germanic (AD 100–600)", "percentage": 2.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.929 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 96.6 },
+        { "name": "Pict (AD 300–500)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.105 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Baltic": {
+    "Bronze age": {
+      "genetic_fit": "10.436 (Distant)",
+      "ancestries": [
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 39.6 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 37.6 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 14.8 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 7.2 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.128 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 52.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 3.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "17.455 (Distant)",
+      "ancestries": [
+        { "name": "Saami (AD 300–800)", "percentage": 100.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "17.455 (Distant)",
+      "ancestries": [
+        { "name": "Saami (AD 300–800)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Greece & Cyprus": {
+    "Bronze age": {
+      "genetic_fit": "2.535 (Very close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 27.8 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 26.8 },
+        { "name": "Canaanite (1800–1100 BC)", "percentage": 17.4 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 13.4 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 12.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 1.0 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.579 (Close)",
+      "ancestries": [
+        { "name": "Tarim Basin (570–200 BC)", "percentage": 41.0 },
+        { "name": "Xiongnu (150–1 BC)", "percentage": 35.6 },
+        { "name": "Anatolian (780–30 BC)", "percentage": 21.2 },
+        { "name": "Sub-Saharan African", "percentage": 1.4 },
+        { "name": "Phoenician (1000–330 BC)", "percentage": 0.8 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "5.199 (Moderate)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 59.2 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 17.2 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 12.8 },
+        { "name": "Roman Anatolia (100 BC–AD 700)", "percentage": 10.8 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.379 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 89.0 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 9.6 },
+        { "name": "Levantine (AD 300–1300)", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    }
+  },
+  "Iberia": {
+    "Bronze age": {
+      "genetic_fit": "4.776 (Close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 45.2 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 30.0 },
+        { "name": "Canaanite (1800–1100 BC)", "percentage": 14.2 },
+        { "name": "Bronze Age Anatolian (3400–1500 BC)", "percentage": 9.4 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "28.935 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 41.6 },
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 32.4 },
+        { "name": "Berber (760–540 BC)", "percentage": 26.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "27.517 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 66.8 },
+        { "name": "Roman North Africa (AD 120–220)", "percentage": 33.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.367 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 46.2 },
+        { "name": "North African (AD 580–1160)", "percentage": 34.8 },
+        { "name": "Iberian (AD 300–1200)", "percentage": 19.0 }
+      ]
+    }
+  },
+  "North Italy": {
+    "Bronze age": {
+      "genetic_fit": "4.776 (Close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 45.2 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 30.0 },
+        { "name": "Canaanite (1800–1100 BC)", "percentage": 14.2 },
+        { "name": "Bronze Age Anatolian (3400–1500 BC)", "percentage": 9.4 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "27.314 (Distant)",
+      "ancestries": [
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 45.2 },
+        { "name": "Phoenician (1000–330 BC)", "percentage": 30.8 },
+        { "name": "Berber (760–540 BC)", "percentage": 14.2 },
+        { "name": "Germanic (AD 100–600)", "percentage": 9.8 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "27.509 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 54.2 },
+        { "name": "Roman North Africa (AD 120–220)", "percentage": 32.0 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 9.4 },
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 4.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "27.382 (Distant)",
+      "ancestries": [
+        { "name": "Italian (AD 650–1450)", "percentage": 41.6 },
+        { "name": "Slavic (AD 540–1270)", "percentage": 39.2 },
+        { "name": "North African (AD 580–1160)", "percentage": 19.2 }
+      ]
+    }
+  },
+  "South Italy": {
+    "Bronze age": {
+      "genetic_fit": "4.776 (Close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 45.2 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 30.0 },
+        { "name": "Canaanite (1800–1100 BC)", "percentage": 14.2 },
+        { "name": "Bronze Age Anatolian (3400–1500 BC)", "percentage": 9.4 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "29.543 (Distant)",
+      "ancestries": [
+        { "name": "Phoenician (1000–330 BC)", "percentage": 56.0 },
+        { "name": "Italic and Etruscan (900–200 BC)", "percentage": 30.6 },
+        { "name": "Berber (760–540 BC)", "percentage": 13.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "27.514 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 64.0 },
+        { "name": "Roman North Africa (AD 120–220)", "percentage": 31.8 },
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 4.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "27.752 (Distant)",
+      "ancestries": [
+        { "name": "Italian (AD 650–1450)", "percentage": 60.8 },
+        { "name": "Germanic (AD 700–1000)", "percentage": 25.2 },
+        { "name": "North African (AD 580–1160)", "percentage": 14.0 }
+      ]
+    }
+  },
+  "Central Europe (Germany, Switzerland, Austria)": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "28.229 (Distant)",
+      "ancestries": [
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 41.8 },
+        { "name": "Germanic (AD 100–600)", "percentage": 29.8 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 28.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.918 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 82.6 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 15.0 },
+        { "name": "Roman Pannonia (AD 130–600)", "percentage": 2.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "27.049 (Distant)",
+      "ancestries": [
+        { "name": "Italian (AD 650–1450)", "percentage": 46.4 },
+        { "name": "Slavic (AD 540–1270)", "percentage": 45.8 },
+        { "name": "Germanic (AD 700–1000)", "percentage": 7.8 }
+      ]
+    }
+  },
+  "Crimean Tatar & Nogai": {
+    "Bronze age": {
+      "genetic_fit": "2.598 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 32.0 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.4 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 14.8 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 14.4 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 8.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 1.6 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.358 (Close)",
+      "ancestries": [
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 44.2 },
+        { "name": "Xiongnu (150–1 BC)", "percentage": 38.6 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 6.4 },
+        { "name": "Tarim Basin (570–200 BC)", "percentage": 1.8 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.140 (Close)",
+      "ancestries": [
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 33.8 },
+        { "name": "Hunnic (AD 300–450)", "percentage": 32.4 },
+        { "name": "Khotanese Saka (AD 150–300)", "percentage": 18.0 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 14.2 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 1.6 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.972 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 84.2 },
+        { "name": "Mongolic (AD 900–1300)", "percentage": 10.8 },
+        { "name": "Slavic (AD 540–1270)", "percentage": 5.0 }
+      ]
+    }
+  },
+  "East Europe": {
+    "Bronze age": {
+      "genetic_fit": "10.436 (Distant)",
+      "ancestries": [
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 39.6 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 37.6 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 14.8 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 7.2 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.700 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 46.2 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 29.4 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 10.0 },
+        { "name": "Colchian (780–30 BC)", "percentage": 7.4 },
+        { "name": "Thracian (1100–200 BC)", "percentage": 7.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "4.175 (Close)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 46.2 },
+        { "name": "Sarmatian (AD 50–450)", "percentage": 24.6 },
+        { "name": "Lazica", "percentage": 22.4 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 6.8 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "3.068 (Close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 99.8 },
+        { "name": "Slavic (AD 540–1270)", "percentage": 0.2 }
+      ]
+    }
+  },
+  "Balkan East (Romania, Bulgaria, Moldova, Macedonia)": {
+    "Bronze age": {
+      "genetic_fit": "2.434 (Very close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 27.2 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 21.4 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 15.8 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 12.4 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 8.2 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 6.2 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 3.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 2.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 1.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.490 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 46.0 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 29.2 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 11.0 },
+        { "name": "Anatolian (780–30 BC)", "percentage": 8.8 },
+        { "name": "Phoenician (1000–330 BC)", "percentage": 4.8 },
+        { "name": "Sarmatian (530–250 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "2.594 (Very close)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 28.8 },
+        { "name": "Iranian Plateau", "percentage": 25.4 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 20.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 15.0 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 10.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.755 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 92.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 7.4 }
+      ]
+    }
+  },
+  "Balkan West (Albania, Bosnia, Croatia, Kosovo, Montenegro, Serbia, Slovenia)": {
+    "Bronze age": {
+      "genetic_fit": "2.434 (Very close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 27.2 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 21.4 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 15.8 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 12.4 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 8.2 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 6.2 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 3.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 2.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 1.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.490 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 46.0 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 29.2 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 11.0 },
+        { "name": "Anatolian (780–30 BC)", "percentage": 8.8 },
+        { "name": "Phoenician (1000–330 BC)", "percentage": 4.8 },
+        { "name": "Sarmatian (530–250 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.138 (Close)",
+      "ancestries": [
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 27.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 25.2 },
+        { "name": "Roman Illyria (AD 100–600)", "percentage": 24.6 },
+        { "name": "Hunnic (AD 300–450)", "percentage": 19.8 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 2.8 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.755 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 92.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 7.4 }
+      ]
+    }
+  },
+  "North France": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.131 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 53.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Germanic (AD 100–600)", "percentage": 2.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.929 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 96.6 },
+        { "name": "Pict (AD 300–500)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.105 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Great Britain & Ireland": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.131 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 53.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Germanic (AD 100–600)", "percentage": 2.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.929 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 96.6 },
+        { "name": "Pict (AD 300–500)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.105 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Iceland": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.131 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 53.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Germanic (AD 100–600)", "percentage": 2.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.929 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 96.6 },
+        { "name": "Pict (AD 300–500)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.105 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Scandinavia East (Sweden, Finland)": {
+    "Bronze age": {
+      "genetic_fit": "10.436 (Distant)",
+      "ancestries": [
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 39.6 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 37.6 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 14.8 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 7.2 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.128 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 52.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 3.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "17.455 (Distant)",
+      "ancestries": [
+        { "name": "Saami (AD 300–800)", "percentage": 100.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "17.455 (Distant)",
+      "ancestries": [
+        { "name": "Saami (AD 300–800)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Scandinavia West (Norway, Denmark)": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.131 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 53.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Germanic (AD 100–600)", "percentage": 2.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.929 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 96.6 },
+        { "name": "Pict (AD 300–500)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.105 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Breton": {
+    "Bronze age": {
+      "genetic_fit": "23.984 (Distant)",
+      "ancestries": [
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 75.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 24.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "12.131 (Distant)",
+      "ancestries": [
+        { "name": "Continental Celt (800–50 BC)", "percentage": 53.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 44.6 },
+        { "name": "Germanic (AD 100–600)", "percentage": 2.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "28.929 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 100–630)", "percentage": 96.6 },
+        { "name": "Pict (AD 300–500)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.105 (Distant)",
+      "ancestries": [
+        { "name": "Germanic (AD 700–1000)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Japan": {
+    "Bronze age": {
+      "genetic_fit": "25.810 (Distant)",
+      "ancestries": [
+        { "name": "East Siberian (1000–900 BC)", "percentage": 58.2 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 30.8 },
+        { "name": "Jomon (6900–800 BC)", "percentage": 11.0 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "5.870 (Moderate)",
+      "ancestries": [
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 56.8 },
+        { "name": "Xiongnu (150–1 BC)", "percentage": 42.6 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 0.6 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "25.284 (Distant)",
+      "ancestries": [
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 59.4 },
+        { "name": "Old Bering Sea Culture (AD 200–1330)", "percentage": 27.4 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 13.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "26.938 (Distant)",
+      "ancestries": [
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 51.0 },
+        { "name": "Old Bering Sea Culture (AD 200–1330)", "percentage": 45.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 4.0 }
+      ]
+    }
+  },
+  "Mongolia & East Siberia": {
+    "Bronze age": {
+      "genetic_fit": "2.444 (Very close)",
+      "ancestries": [
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.0 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 18.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 11.6 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 9.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 7.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.8 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 6.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.4 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 6.0 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 1.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.670 (Very close)",
+      "ancestries": [
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 35.4 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 17.0 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 16.4 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 10.8 },
+        { "name": "Scythian (750–110 BC)", "percentage": 7.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.2 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 5.6 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.999 (Very close)",
+      "ancestries": [
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 28.2 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 21.2 },
+        { "name": "Sarmatian (AD 50–450)", "percentage": 16.0 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 15.8 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 13.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 4.8 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 1.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.907 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 95.0 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 2.4 },
+        { "name": "Mongolic (AD 900–1300)", "percentage": 1.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 1.0 }
+      ]
+    }
+  },
+  "Anatolian Turks & Greeks": {
+    "Bronze age": {
+      "genetic_fit": "2.594 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 31.0 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.4 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 24.2 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.2 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.426 (Close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 44.0 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 20.0 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 20.0 },
+        { "name": "Tarim Basin (570–200 BC)", "percentage": 16.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.343 (Close)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 47.6 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 31.8 },
+        { "name": "Khotanese Saka (AD 150–300)", "percentage": 17.4 },
+        { "name": "Armenia (BC 100–AD 300)", "percentage": 3.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "3.117 (Close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Azerbaijan": {
+    "Bronze age": {
+      "genetic_fit": "2.594 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 31.0 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.4 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 24.2 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.2 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.426 (Close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 44.2 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 20.8 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 19.6 },
+        { "name": "Tarim Basin (570–200 BC)", "percentage": 15.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.343 (Close)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 47.6 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 31.8 },
+        { "name": "Khotanese Saka (AD 150–300)", "percentage": 17.4 },
+        { "name": "Armenia (BC 100–AD 300)", "percentage": 3.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "3.117 (Close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 100.0 }
+      ]
+    }
+  },
+  "Caucasus": {
+    "Bronze age": {
+      "genetic_fit": "2.594 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 31.0 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.4 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 24.2 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 15.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.2 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "3.932 (Close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 48.0 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 27.4 },
+        { "name": "Sarmatian (530–250 BC)", "percentage": 24.6 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "3.747 (Close)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 48.6 },
+        { "name": "Iranian Plateau", "percentage": 20.6 },
+        { "name": "Sarmatian (AD 50–450)", "percentage": 18.0 },
+        { "name": "Caucasian Albania (AD 200–400)", "percentage": 8.2 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 4.6 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "3.065 (Close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 98.4 },
+        { "name": "Iranian Plateau", "percentage": 1.6 }
+      ]
+    }
+  },
+  "Iran & Iraq": {
+    "Bronze age": {
+      "genetic_fit": "2.400 (Very close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 25.0 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 24.8 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 17.8 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 14.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 8.6 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 4.2 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 3.4 },
+        { "name": "Arabian Peninsula", "percentage": 1.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.680 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 44.0 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 19.4 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 15.2 },
+        { "name": "Anatolian (780–30 BC)", "percentage": 10.6 },
+        { "name": "Saka (540–50 BC)", "percentage": 9.8 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "2.813 (Very close)",
+      "ancestries": [
+        { "name": "Hunnic (AD 300–450)", "percentage": 46.2 },
+        { "name": "Khotanese Saka (AD 150–300)", "percentage": 23.4 },
+        { "name": "Iranian Plateau", "percentage": 21.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 7.8 },
+        { "name": "Sub-Saharan African", "percentage": 1.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.103 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 48.0 },
+        { "name": "Khorasan (AD 1000–1570)", "percentage": 23.4 },
+        { "name": "Mongolic (AD 900–1300)", "percentage": 22.8 },
+        { "name": "Iranian Plateau", "percentage": 5.0 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    }
+  },
+  "Indian Subcontinent": {
+    "Bronze age": {
+      "genetic_fit": "2.339 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 28.0 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.4 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 13.2 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 10.2 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 7.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.8 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 4.2 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 2.6 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 1.0 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.599 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 37.6 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 29.2 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 12.8 },
+        { "name": "Arabian Peninsula", "percentage": 6.2 },
+        { "name": "Saka (540–50 BC)", "percentage": 6.0 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 5.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 1.4 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 0.6 },
+        { "name": "Phoenician (1000–330 BC)", "percentage": 0.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "2.754 (Very close)",
+      "ancestries": [
+        { "name": "Iranian Plateau", "percentage": 26.8 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 23.2 },
+        { "name": "Hunnic (AD 300–450)", "percentage": 19.6 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 17.6 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 9.4 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 3.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.187 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 67.0 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 13.4 },
+        { "name": "Mongolic (AD 900–1300)", "percentage": 8.8 },
+        { "name": "Levantine (AD 300–1300)", "percentage": 5.2 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 2.8 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 2.8 }
+      ]
+    }
+  },
+  "Central Asia": {
+    "Bronze age": {
+      "genetic_fit": "2.443 (Very close)",
+      "ancestries": [
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.0 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 17.4 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 11.4 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 9.0 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 8.8 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 6.8 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.6 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 6.4 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.4 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 2.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.644 (Very close)",
+      "ancestries": [
+        { "name": "Xiongnu (150–1 BC)", "percentage": 28.8 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 15.0 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 14.8 },
+        { "name": "Sarmatian (530–250 BC)", "percentage": 13.2 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 11.2 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 10.4 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 4.2 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 2.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.722 (Very close)",
+      "ancestries": [
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 22.0 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 17.6 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 16.8 },
+        { "name": "Volga (AD 200–400)", "percentage": 16.4 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 15.8 },
+        { "name": "Iranian Plateau", "percentage": 11.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.054 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 42.4 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 17.6 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 14.0 },
+        { "name": "Mongolic (AD 900–1300)", "percentage": 12.2 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 7.2 },
+        { "name": "Magyar", "percentage": 6.6 }
+      ]
+    }
+  },
+  "China": {
+    "Bronze age": {
+      "genetic_fit": "2.444 (Very close)",
+      "ancestries": [
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.0 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 18.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 11.6 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 9.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 7.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.8 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 6.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.4 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 6.0 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 1.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.668 (Very close)",
+      "ancestries": [
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 33.2 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 17.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 17.0 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 9.6 },
+        { "name": "Scythian (750–110 BC)", "percentage": 9.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.2 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 6.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.975 (Very close)",
+      "ancestries": [
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 31.8 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 21.0 },
+        { "name": "Sarmatian (AD 50–450)", "percentage": 16.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 12.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 12.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 5.2 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 1.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.040 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 50.6 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 19.4 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 13.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 9.6 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 4.2 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 3.2 }
+      ]
+    }
+  },
+  "Aboriginal Australia": {
+    "Bronze age": {
+      "genetic_fit": "2.444 (Very close)",
+      "ancestries": [
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.0 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 18.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 11.6 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 9.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 7.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.8 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 6.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.4 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 6.0 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 1.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.668 (Very close)",
+      "ancestries": [
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 33.2 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 17.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 17.0 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 9.6 },
+        { "name": "Scythian (750–110 BC)", "percentage": 9.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.2 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 6.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.975 (Very close)",
+      "ancestries": [
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 31.8 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 21.0 },
+        { "name": "Sarmatian (AD 50–450)", "percentage": 16.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 12.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 12.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 5.2 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 1.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.040 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 50.6 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 19.4 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 13.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 9.6 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 4.2 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 3.2 }
+      ]
+    }
+  },
+  "America & Australia, Latin America": {
+    "Bronze age": {
+      "genetic_fit": "16.557 (Distant)",
+      "ancestries": [
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 41.0 },
+        { "name": "North Amerindian (4000 BC–AD 1600)", "percentage": 33.4 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 20.6 },
+        { "name": "Sub-Saharan African", "percentage": 2.6 },
+        { "name": "Savanna Pastoral Neolithic (2000 BC–AD 600)", "percentage": 1.8 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "17.686 (Distant)",
+      "ancestries": [
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 43.4 },
+        { "name": "North Amerindian (4000 BC–AD 1600)", "percentage": 36.2 },
+        { "name": "Germanic (AD 100–600)", "percentage": 15.0 },
+        { "name": "Sub-Saharan African", "percentage": 5.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "17.183 (Distant)",
+      "ancestries": [
+        { "name": "North Amerindian (4000 BC–AD 1600)", "percentage": 35.4 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 34.8 },
+        { "name": "Germanic (AD 100–630)", "percentage": 25.2 },
+        { "name": "Sub-Saharan African", "percentage": 4.6 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "17.797 (Distant)",
+      "ancestries": [
+        { "name": "North Amerindian (4000 BC–AD 1600)", "percentage": 35.8 },
+        { "name": "Italian (AD 650–1450)", "percentage": 30.4 },
+        { "name": "Germanic (AD 700–1000)", "percentage": 23.4 },
+        { "name": "North African (AD 580–1160)", "percentage": 5.4 },
+        { "name": "Sub-Saharan African", "percentage": 5.0 }
+      ]
+    }
+  },
+  "America & Australia, Carribean": {
+    "Bronze age": {
+      "genetic_fit": "2.228 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 35.8 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 12.2 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 9.4 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 8.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 7.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.4 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.6 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 6.0 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 4.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.210 (Very close)",
+      "ancestries": [
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 23.2 },
+        { "name": "Xiongnu (150–1 BC)", "percentage": 18.0 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 10.8 },
+        { "name": "Balto-Slavic (900–350 BC)", "percentage": 10.4 },
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 9.6 },
+        { "name": "Mannaean (1030–800 BC)", "percentage": 9.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.8 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 5.8 },
+        { "name": "Urartian (850–750 BC)", "percentage": 3.6 },
+        { "name": "Anatolian (780–30 BC)", "percentage": 1.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 0.6 },
+        { "name": "Egyptian (780–400 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.587 (Very close)",
+      "ancestries": [
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 23.0 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 19.4 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 19.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 15.6 },
+        { "name": "Volga (AD 200–400)", "percentage": 7.8 },
+        { "name": "Slavic (AD 540–1100)", "percentage": 7.0 },
+        { "name": "Iranian Plateau", "percentage": 4.4 },
+        { "name": "Roman Levant (BC 50–AD 700)", "percentage": 2.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 0.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.8 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "1.589 (Very close)",
+      "ancestries": [
+        { "name": "Mongolic (AD 900–1300)", "percentage": 26.6 },
+        { "name": "Turkic (AD 650–1200)", "percentage": 15.2 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 15.0 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 12.0 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 9.4 },
+        { "name": "Volga (AD 200–400)", "percentage": 7.0 },
+        { "name": "Iranian Plateau", "percentage": 5.4 },
+        { "name": "Baltic (AD 900–1050)", "percentage": 4.6 },
+        { "name": "Magyar", "percentage": 3.6 },
+        { "name": "Amur River (AD 620–670)", "percentage": 0.6 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    }
+  },
+  "America & Australia, Micronesia, Melanesia & Polynesia": {
+    "Bronze age": {
+      "genetic_fit": "2.444 (Very close)",
+      "ancestries": [
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.0 },
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 18.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 11.6 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 9.2 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 7.6 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.8 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 6.6 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.4 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 6.0 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 1.8 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "2.668 (Very close)",
+      "ancestries": [
+        { "name": "Yaz Culture (910–800 BC)", "percentage": 33.2 },
+        { "name": "Gandhara Grave Culture (1300–800 BC)", "percentage": 17.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 17.0 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 9.6 },
+        { "name": "Scythian (750–110 BC)", "percentage": 9.0 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.2 },
+        { "name": "Sinitic (1230–130 BC)", "percentage": 6.4 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "1.975 (Very close)",
+      "ancestries": [
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 31.8 },
+        { "name": "Rouran Khaganate (AD 330–550)", "percentage": 21.0 },
+        { "name": "Sarmatian (AD 50–450)", "percentage": 16.2 },
+        { "name": "Sinitic (1230 BC–AD 200)", "percentage": 12.6 },
+        { "name": "Indian Subcontinent (AD 690–990)", "percentage": 12.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 5.2 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 1.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "2.040 (Very close)",
+      "ancestries": [
+        { "name": "Turkic (AD 650–1200)", "percentage": 50.6 },
+        { "name": "Khwarazm and Transoxiana (100 BC–AD 950)", "percentage": 19.4 },
+        { "name": "Swat Valley (300 BC–AD 1350)", "percentage": 13.0 },
+        { "name": "Amur River (AD 620–670)", "percentage": 9.6 },
+        { "name": "Sinitic (1230 BC–AD 1670)", "percentage": 4.2 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 3.2 }
+      ]
+    }
+  },
+  "Africa, East Africa (Ethiopia, Somalia, Eritrea)": {
+    "Bronze age": {
+      "genetic_fit": "13.787 (Distant)",
+      "ancestries": [
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 50.8 },
+        { "name": "North Amerindian (4000 BC–AD 1600)", "percentage": 25.4 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 23.4 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "32.002 (Distant)",
+      "ancestries": [
+        { "name": "Egyptian (780–400 BC)", "percentage": 94.0 },
+        { "name": "Sub-Saharan African", "percentage": 6.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "31.655 (Distant)",
+      "ancestries": [
+        { "name": "Roman Egypt", "percentage": 92.0 },
+        { "name": "Sub-Saharan African", "percentage": 8.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "31.610 (Distant)",
+      "ancestries": [
+        { "name": "Egyptian", "percentage": 98.0 },
+        { "name": "Sub-Saharan African", "percentage": 2.0 }
+      ]
+    }
+  },
+  "Africa, Egypt": {
+    "Bronze age": {
+      "genetic_fit": "2.339 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 28.0 },
+        { "name": "Central Steppe (2100–1800 BC)", "percentage": 25.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 13.6 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 10.0 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 7.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 6.6 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 4.2 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 2.4 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 1.0 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 },
+        { "name": "Indus Valley Civilization (3100–2000 BC)", "percentage": 0.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "26.671 (Distant)",
+      "ancestries": [
+        { "name": "Mannaean (1030–800 BC)", "percentage": 91.0 },
+        { "name": "Sub-Saharan African", "percentage": 9.0 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "26.671 (Distant)",
+      "ancestries": [
+        { "name": "Iranian Plateau", "percentage": 91.0 },
+        { "name": "Sub-Saharan African", "percentage": 9.0 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "30.051 (Distant)",
+      "ancestries": [
+        { "name": "Levantine (AD 300–1300)", "percentage": 89.6 },
+        { "name": "Sub-Saharan African", "percentage": 10.4 }
+      ]
+    }
+  },
+  "Africa, North Africa": {
+    "Bronze age": {
+      "genetic_fit": "4.223 (Close)",
+      "ancestries": [
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 44.8 },
+        { "name": "Western Steppe (3300–2600 BC)", "percentage": 24.8 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 19.2 },
+        { "name": "Bronze Age Caucasian (3700–1700 BC)", "percentage": 8.8 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 1.8 },
+        { "name": "Sub-Saharan African", "percentage": 0.6 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "28.597 (Distant)",
+      "ancestries": [
+        { "name": "Phoenician (1000–330 BC)", "percentage": 46.8 },
+        { "name": "Iberian (700–50 BC)", "percentage": 43.0 },
+        { "name": "Sub-Saharan African", "percentage": 10.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "27.667 (Distant)",
+      "ancestries": [
+        { "name": "Roman Iberia (AD 260–500)", "percentage": 53.6 },
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 35.2 },
+        { "name": "Sub-Saharan African", "percentage": 11.2 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "28.557 (Distant)",
+      "ancestries": [
+        { "name": "Italian (AD 650–1450)", "percentage": 79.4 },
+        { "name": "Sub-Saharan African", "percentage": 13.2 },
+        { "name": "Iberian (AD 300–1200)", "percentage": 7.4 }
+      ]
+    }
+  },
+  "Africa, Central Africa": {
+    "Bronze age": {
+      "genetic_fit": "2.180 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 41.8 },
+        { "name": "Baltic Hunter-Gatherer (5200–4200 BC)", "percentage": 11.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 10.4 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 10.2 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 7.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.0 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.4 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 1.6 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 1.2 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 1.0 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.6 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.2 },
+        { "name": "Sub-Saharan African", "percentage": 0.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "28.597 (Distant)",
+      "ancestries": [
+        { "name": "Phoenician (1000–330 BC)", "percentage": 46.8 },
+        { "name": "Iberian (700–50 BC)", "percentage": 43.0 },
+        { "name": "Sub-Saharan African", "percentage": 10.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "10.592 (Distant)",
+      "ancestries": [
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 51.6 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 48.0 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "11.322 (Distant)",
+      "ancestries": [
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 48.4 },
+        { "name": "Italian (AD 650–1450)", "percentage": 47.6 },
+        { "name": "Iberian (AD 300–1200)", "percentage": 2.8 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    }
+  },
+  "Africa, Western Africa": {
+    "Bronze age": {
+      "genetic_fit": "2.180 (Very close)",
+      "ancestries": [
+        { "name": "Bactria–Margiana Archaeological Complex (2000–1600 BC)", "percentage": 41.8 },
+        { "name": "Baltic Hunter-Gatherer (5200–4200 BC)", "percentage": 11.6 },
+        { "name": "Amur River (1000–800 BC)", "percentage": 10.4 },
+        { "name": "Eastern Steppe (1350–900 BC)", "percentage": 10.2 },
+        { "name": "Yellow River (2300–1900 BC)", "percentage": 7.8 },
+        { "name": "Central Siberian (2400–2000 BC)", "percentage": 7.0 },
+        { "name": "Tibetan Plateau (1200 BC–AD 500)", "percentage": 6.4 },
+        { "name": "European Farmer (6300–2800 BC)", "percentage": 1.6 },
+        { "name": "Copper Age Zagros (6000–5700 BC)", "percentage": 1.2 },
+        { "name": "Liao River (1050–350 BC)", "percentage": 1.0 },
+        { "name": "Northwest African (5200–4900 BC)", "percentage": 0.6 },
+        { "name": "Ancient Ancestral South Indian", "percentage": 0.2 },
+        { "name": "Sub-Saharan African", "percentage": 0.2 }
+      ]
+    },
+    "Iron age": {
+      "genetic_fit": "28.597 (Distant)",
+      "ancestries": [
+        { "name": "Phoenician (1000–330 BC)", "percentage": 46.8 },
+        { "name": "Iberian (700–50 BC)", "percentage": 43.0 },
+        { "name": "Sub-Saharan African", "percentage": 10.2 }
+      ]
+    },
+    "Late antiquity": {
+      "genetic_fit": "10.592 (Distant)",
+      "ancestries": [
+        { "name": "Roman Italy (20 BC–AD 600)", "percentage": 51.6 },
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 48.0 },
+        { "name": "Sub-Saharan African", "percentage": 0.4 }
+      ]
+    },
+    "Middle ages": {
+      "genetic_fit": "11.322 (Distant)",
+      "ancestries": [
+        { "name": "Southeast Asian (2000 BC–AD 1800)", "percentage": 48.4 },
+        { "name": "Italian (AD 650–1450)", "percentage": 47.6 },
+        { "name": "Iberian (AD 300–1200)", "percentage": 2.8 },
+        { "name": "Sub-Saharan African", "percentage": 1.2 }
+      ]
+    }
+  }
+}

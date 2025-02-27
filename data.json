@@ -1,0 +1,294 @@
+
+{
+  "Europe": {
+    "Northwest Europe (Netherlands, Belgium)": {
+      "Bronze Age": 23.984,
+      "Iron Age": 12.131,
+      "Late Antiquity": 28.929,
+      "Middle Ages": 28.105
+    },
+    "Baltic": {
+      "Bronze Age": 10.436,
+      "Iron Age": 12.128,
+      "Late Antiquity": 17.455,
+      "Middle Ages": 17.455
+    },
+    "Greece & Cyprus": {
+      "Bronze Age": 2.535,
+      "Iron Age": 3.579,
+      "Late Antiquity": 5.199,
+      "Middle Ages": 2.379
+    },
+    "Iberia": {
+      "Bronze Age": 4.776,
+      "Iron Age": 28.935,
+      "Late Antiquity": 27.517,
+      "Middle Ages": 28.367
+    },
+    "Italy North": {
+      "Bronze Age": 4.776,
+      "Iron Age": 27.314,
+      "Late Antiquity": 27.509,
+      "Middle Ages": 27.382
+    },
+    "Sardinia": {
+      "Bronze Age": 4.776,
+      "Iron Age": 27.403,
+      "Late Antiquity": 28.516,
+      "Middle Ages": 27.752
+    },
+    "France South": {
+      "Bronze Age": 4.776,
+      "Iron Age": 28.935,
+      "Late Antiquity": 28.473,
+      "Middle Ages": 27.941
+    },
+    "Italy South": {
+      "Bronze Age": 4.776,
+      "Iron Age": 29.543,
+      "Late Antiquity": 27.514,
+      "Middle Ages": 27.752
+    },
+    "Central Europe (Germany, Switzerland, Austria)": {
+      "Bronze Age": 23.984,
+      "Iron Age": 28.229,
+      "Late Antiquity": 28.918,
+      "Middle Ages": 27.049
+    },
+    "Crimean Tatar & Nogai": {
+      "Bronze Age": 2.598,
+      "Iron Age": 3.358,
+      "Late Antiquity": 3.140,
+      "Middle Ages": 2.972
+    },
+    "East Europe": {
+      "Bronze Age": 10.436,
+      "Iron Age": 2.700,
+      "Late Antiquity": 4.175,
+      "Middle Ages": 3.068
+    },
+    "Balkan East (Romania, Bulgaria, Moldova, Macedonia)": {
+      "Bronze Age": 2.434,
+      "Iron Age": 2.490,
+      "Late Antiquity": 2.594,
+      "Middle Ages": 2.755
+    },
+    "Balkan West (Albania, Bosnia, Croatia, Kosovo, Montenegro, Serbia, Slovenia)": {
+      "Bronze Age": 2.434,
+      "Iron Age": 2.490,
+      "Late Antiquity": 3.138,
+      "Middle Ages": 2.755
+    },
+    "France North": {
+      "Bronze Age": 23.984,
+      "Iron Age": 12.131,
+      "Late Antiquity": 28.929,
+      "Middle Ages": 28.105
+    },
+    "Great Britain & Ireland": {
+      "Bronze Age": 23.984,
+      "Iron Age": 12.131,
+      "Late Antiquity": 28.929,
+      "Middle Ages": 28.105
+    },
+    "Iceland": {
+      "Bronze Age": 23.984,
+      "Iron Age": 12.131,
+      "Late Antiquity": 28.929,
+      "Middle Ages": 28.105
+    },
+    "Scandinavia East (Sweden, Finland)": {
+      "Bronze Age": 10.436,
+      "Iron Age": 12.128,
+      "Late Antiquity": 17.455,
+      "Middle Ages": 17.455
+    },
+    "Scandinavia West (Norway, Denmark)": {
+      "Bronze Age": 23.984,
+      "Iron Age": 12.131,
+      "Late Antiquity": 28.929,
+      "Middle Ages": 28.105
+    },
+    "Breton": {
+      "Bronze Age": 23.984,
+      "Iron Age": 12.131,
+      "Late Antiquity": 28.929,
+      "Middle Ages": 28.105
+    }
+  },
+  "Jewish": {
+    "Mizrahi": {
+      "Bronze Age": 2.572,
+      "Iron Age": 3.298,
+      "Late Antiquity": 3.291,
+      "Middle Ages": 2.461
+    },
+    "Ashkenazi": {
+      "Bronze Age": 3.789,
+      "Iron Age": 4.520,
+      "Late Antiquity": 5.192,
+      "Middle Ages": 27.080
+    },
+    "Sephardic": {
+      "Bronze Age": 3.789,
+      "Iron Age": 5.393,
+      "Late Antiquity": 5.192,
+      "Middle Ages": 26.662
+    }
+  },
+  "Middle East": {
+    "Levant": {
+      "Bronze Age": 2.572,
+      "Iron Age": 3.298,
+      "Late Antiquity": 3.291,
+      "Middle Ages": 2.461
+    },
+    "Arabian Peninsula": {
+      "Bronze Age": 2.751,
+      "Iron Age": 2.686,
+      "Late Antiquity": 17.868,
+      "Middle Ages": 19.180
+    }
+  },
+  "Global": {
+    "Global": {
+      "Bronze Age": 2.228,
+      "Iron Age": 2.210,
+      "Late Antiquity": 1.587,
+      "Middle Ages": 1.589
+    }
+  },
+  "Asia": {
+    "Japan": {
+      "Bronze Age": 25.810,
+      "Iron Age": 5.870,
+      "Late Antiquity": 25.284,
+      "Middle Ages": 26.938
+    },
+    "Mongolia & East Siberia": {
+      "Bronze Age": 2.444,
+      "Iron Age": 2.670,
+      "Late Antiquity": 1.999,
+      "Middle Ages": 2.907
+    },
+    "Anatolian Turks & Greeks": {
+      "Bronze Age": 2.594,
+      "Iron Age": 3.426,
+      "Late Antiquity": 3.343,
+      "Middle Ages": 3.117
+    },
+    "Azerbaijan": {
+      "Bronze Age": 2.594,
+      "Iron Age": 3.426,
+      "Late Antiquity": 3.343,
+      "Middle Ages": 3.117
+    },
+    "Caucasus": {
+      "Bronze Age": 2.594,
+      "Iron Age": 3.932,
+      "Late Antiquity": 3.747,
+      "Middle Ages": 3.065
+    },
+    "Iran&Iraq": {
+      "Bronze Age": 2.400,
+      "Iron Age": 2.680,
+      "Late Antiquity": 2.813,
+      "Middle Ages": 2.103
+    },
+    "Indian subcontinent": {
+      "Bronze Age": 2.339,
+      "Iron Age": 2.599,
+      "Late Antiquity": 2.754,
+      "Middle Ages": 2.187
+    },
+    "Central asia": {
+      "Bronze Age": 2.443,
+      "Iron Age": 2.644,
+      "Late Antiquity": 1.722,
+      "Middle Ages": 2.054
+    },
+    "China": {
+      "Bronze Age": 2.444,
+      "Iron Age": 2.668,
+      "Late Antiquity": 1.975,
+      "Middle Ages": 2.040
+    }
+  },
+  "America & Australia": {
+    "Aboriginal Australia": {
+      "Bronze Age": 2.444,
+      "Iron Age": 2.668,
+      "Late Antiquity": 1.975,
+      "Middle Ages": 2.040
+    },
+    "Latin America": {
+      "Bronze Age": 16.557,
+      "Iron Age": 17.686,
+      "Late Antiquity": 17.183,
+      "Middle Ages": 17.797
+    },
+    "Caribbean": {
+      "Bronze Age": 2.228,
+      "Iron Age": 2.210,
+      "Late Antiquity": 1.587,
+      "Middle Ages": 1.589
+    },
+    "Micronesia, Melanesia & Polynesia": {
+      "Bronze Age": 2.444,
+      "Iron Age": 2.668,
+      "Late Antiquity": 1.975,
+      "Middle Ages": 2.040
+    },
+    "Native American": {
+      "Bronze Age": 2.228,
+      "Iron Age": 2.210,
+      "Late Antiquity": 1.587,
+      "Middle Ages": 1.589
+    },
+    "New Zealand": {
+      "Bronze Age": 2.444,
+      "Iron Age": 2.668,
+      "Late Antiquity": 1.975,
+      "Middle Ages": 2.040
+    }
+  },
+  "Africa": {
+    "East Africa": {
+      "Bronze Age": 13.787,
+      "Iron Age": 32.002,
+      "Late Antiquity": 31.655,
+      "Middle Ages": 31.610
+    },
+    "Egypt": {
+      "Bronze Age": 2.339,
+      "Iron Age": 26.671,
+      "Late Antiquity": 26.671,
+      "Middle Ages": 30.051
+    },
+    "North Africa": {
+      "Bronze Age": 4.223,
+      "Iron Age": 28.597,
+      "Late Antiquity": 27.667,
+      "Middle Ages": 28.557
+    },
+    "Central Africa": {
+      "Bronze Age": 2.180,
+      "Iron Age": 28.597,
+      "Late Antiquity": 10.592,
+      "Middle Ages": 11.322
+    },
+    "Southern Africa": {
+      "Bronze Age": 2.180,
+      "Iron Age": 28.597,
+      "Late Antiquity": 10.592,
+      "Middle Ages": 11.322
+    },
+    "Western Africa": {
+      "Bronze Age": 2.180,
+      "Iron Age": 28.597,
+      "Late Antiquity": 10.592,
+      "Middle Ages": 11.322
+    }
+  }
+}
+
